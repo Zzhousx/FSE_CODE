@@ -1,0 +1,6 @@
+{
+  "projects": ["conan", "tornado", "Cirq", "xonsh", "hydra", "mitmproxy", "kombu", "setuptools"],
+  "seeds": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+  "budget_ratios": [0.5, 1.0, 2.0, 4.0],
+  "planning_quantile": 0.5
+}

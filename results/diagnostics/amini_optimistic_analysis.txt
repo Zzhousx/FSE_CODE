@@ -1,0 +1,92 @@
+==============================================================================
+AMINI-TRANSFUSER: OPTIMISTIC ERCC vs FROZEN (12 matched seeds)
+==============================================================================
+
+-- budget 5% --
+   Uniform                  0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   FailRerun                0.0217  (sd=0.0293, 95%CI pm 0.0166)
+   APGAI                    0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   ScoreCost                0.0435  (sd=0.0262, 95%CI pm 0.0148)
+   ReproAlloc               0.0471  (sd=0.0291, 95%CI pm 0.0164)
+   ReproAlloc-OA            0.0543  (sd=0.0377, 95%CI pm 0.0213)
+   ReproAlloc-Optimistic    0.0652  (sd=0.0293, 95%CI pm 0.0166)
+   paired diffs (matched on seed), recall_refpos:
+     OPT - Uniform       : mean=+0.0652 95%CI=[+0.0486,+0.0818] wilcoxon p=0.0010 n=12
+     OPT - FailRerun     : mean=+0.0435 95%CI=[+0.0225,+0.0645] wilcoxon p=0.0088 n=12
+     OPT - APGAI         : mean=+0.0652 95%CI=[+0.0486,+0.0818] wilcoxon p=0.0010 n=12
+     OPT - ScoreCost     : mean=+0.0217 95%CI=[+0.0052,+0.0383] wilcoxon p=0.0703 n=12
+     OPT - ReproAlloc    : mean=+0.0181 95%CI=[-0.0064,+0.0426] wilcoxon p=0.2734 n=12
+     OPT - ReproAlloc-OA : mean=+0.0109 95%CI=[-0.0208,+0.0426] wilcoxon p=0.5625 n=12
+
+-- budget 10% --
+   Uniform                  0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   FailRerun                0.0435  (sd=0.0371, 95%CI pm 0.0210)
+   APGAI                    0.0652  (sd=0.0227, 95%CI pm 0.0128)
+   ScoreCost                0.1051  (sd=0.0391, 95%CI pm 0.0221)
+   ReproAlloc               0.0761  (sd=0.0270, 95%CI pm 0.0153)
+   ReproAlloc-OA            0.0725  (sd=0.0535, 95%CI pm 0.0303)
+   ReproAlloc-Optimistic    0.1413  (sd=0.0270, 95%CI pm 0.0153)
+   paired diffs (matched on seed), recall_refpos:
+     OPT - Uniform       : mean=+0.1413 95%CI=[+0.1260,+0.1566] wilcoxon p=0.0005 n=12
+     OPT - FailRerun     : mean=+0.0978 95%CI=[+0.0661,+0.1295] wilcoxon p=0.0020 n=12
+     OPT - APGAI         : mean=+0.0761 95%CI=[+0.0575,+0.0946] wilcoxon p=0.0010 n=12
+     OPT - ScoreCost     : mean=+0.0362 95%CI=[+0.0186,+0.0539] wilcoxon p=0.0078 n=12
+     OPT - ReproAlloc    : mean=+0.0652 95%CI=[+0.0406,+0.0898] wilcoxon p=0.0020 n=12
+     OPT - ReproAlloc-OA : mean=+0.0688 95%CI=[+0.0402,+0.0975] wilcoxon p=0.0039 n=12
+
+-- budget 20% --
+   Uniform                  0.0036  (sd=0.0126, 95%CI pm 0.0071)
+   FailRerun                0.0833  (sd=0.0539, 95%CI pm 0.0305)
+   APGAI                    0.2283  (sd=0.0377, 95%CI pm 0.0213)
+   ScoreCost                0.2065  (sd=0.0420, 95%CI pm 0.0237)
+   ReproAlloc               0.1594  (sd=0.0502, 95%CI pm 0.0284)
+   ReproAlloc-OA            0.1703  (sd=0.0471, 95%CI pm 0.0267)
+   ReproAlloc-Optimistic    0.2464  (sd=0.0214, 95%CI pm 0.0121)
+   paired diffs (matched on seed), recall_refpos:
+     OPT - Uniform       : mean=+0.2428 95%CI=[+0.2301,+0.2554] wilcoxon p=0.0005 n=12
+     OPT - FailRerun     : mean=+0.1630 95%CI=[+0.1265,+0.1996] wilcoxon p=0.0005 n=12
+     OPT - APGAI         : mean=+0.0181 95%CI=[+0.0017,+0.0346] wilcoxon p=0.1250 n=12
+     OPT - ScoreCost     : mean=+0.0399 95%CI=[+0.0203,+0.0594] wilcoxon p=0.0078 n=12
+     OPT - ReproAlloc    : mean=+0.0870 95%CI=[+0.0573,+0.1166] wilcoxon p=0.0010 n=12
+     OPT - ReproAlloc-OA : mean=+0.0761 95%CI=[+0.0481,+0.1041] wilcoxon p=0.0020 n=12
+
+==============================================================================
+DECISION LOGS (ReproAlloc-Optimistic): what optimism actually does
+==============================================================================
+
+  budget 5%: executions=334
+    picks where mean-index would choose differently: 164 (49.1%)
+    executed arms with m_mean=inf but m_opt finite (fallback escape): 135 (40.4%)
+    optimistic fallback executions: 0 (0.0%)
+    m* reduction on executed arms (m_mean/m_opt): median=2.00 mean=1.91 max=3.0
+    q_opt - q_mean on executed arms: median=0.233 mean=0.238
+
+  budget 10%: executions=663
+    picks where mean-index would choose differently: 241 (36.3%)
+    executed arms with m_mean=inf but m_opt finite (fallback escape): 137 (20.7%)
+    optimistic fallback executions: 0 (0.0%)
+    m* reduction on executed arms (m_mean/m_opt): median=2.33 mean=2.65 max=4.9
+    q_opt - q_mean on executed arms: median=0.223 mean=0.237
+
+  budget 20%: executions=1288
+    picks where mean-index would choose differently: 522 (40.5%)
+    executed arms with m_mean=inf but m_opt finite (fallback escape): 298 (23.1%)
+    optimistic fallback executions: 0 (0.0%)
+    m* reduction on executed arms (m_mean/m_opt): median=2.33 mean=2.75 max=5.2
+    q_opt - q_mean on executed arms: median=0.233 mean=0.245
+
+==============================================================================
+ROUTE-LEVEL: confirmations gained/lost vs frozen ReproAlloc
+==============================================================================
+
+  budget 5%: gained=14 lost=9 (seed,route) cells
+    most gained routes: {'RouteScenario_8': np.int64(4), 'RouteScenario_9': np.int64(3), 'RouteScenario_10': np.int64(3), 'RouteScenario_7': np.int64(2), 'RouteScenario_14': np.int64(1), 'RouteScenario_33': np.int64(1)}
+    most lost routes  : {'RouteScenario_7': np.int64(2), 'RouteScenario_33': np.int64(2), 'RouteScenario_8': np.int64(2), 'RouteScenario_14': np.int64(1), 'RouteScenario_9': np.int64(1), 'RouteScenario_10': np.int64(1)}
+
+  budget 10%: gained=27 lost=9 (seed,route) cells
+    most gained routes: {'RouteScenario_10': np.int64(6), 'RouteScenario_8': np.int64(5), 'RouteScenario_14': np.int64(5), 'RouteScenario_33': np.int64(4), 'RouteScenario_7': np.int64(3), 'RouteScenario_9': np.int64(3)}
+    most lost routes  : {'RouteScenario_32': np.int64(2), 'RouteScenario_8': np.int64(2), 'RouteScenario_16': np.int64(2), 'RouteScenario_9': np.int64(1), 'RouteScenario_7': np.int64(1), 'RouteScenario_33': np.int64(1)}
+
+  budget 20%: gained=37 lost=13 (seed,route) cells
+    most gained routes: {'RouteScenario_10': np.int64(7), 'RouteScenario_7': np.int64(6), 'RouteScenario_9': np.int64(6), 'RouteScenario_14': np.int64(6), 'RouteScenario_33': np.int64(5), 'RouteScenario_8': np.int64(4)}
+    most lost routes  : {'RouteScenario_32': np.int64(8), 'RouteScenario_16': np.int64(4), 'RouteScenario_9': np.int64(1)}

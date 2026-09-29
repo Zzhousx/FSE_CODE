@@ -1,0 +1,57 @@
+{
+  "confirmation": {
+    "rule": "anytime-valid one-sided Hoeffding confidence-sequence lower bound, strict L > tau",
+    "tau": 0.3,
+    "tau_sensitivity": [0.2, 0.4],
+    "delta": 0.05,
+    "sticky": true,
+    "scope": "per-test, time-uniform; not family-wise across the pool"
+  },
+  "planning": {
+    "optimistic_rate": "q_O = Beta.ppf(1 - delta; a, b)",
+    "mean_rate": "q = a / (a + b)",
+    "trajectory": "s~(m) = s + m*q, n~(m) = n + m (planning-only, real-valued)",
+    "m_star": "min{ 1 <= m <= m_cap : L_plan(s + m*q, n + m) > tau }, inf if none",
+    "m_cap_rule": "ceil(budget / min(mean_fail_cost, mean_pass_cost)) + 1",
+    "index": "R_i = m_i* * mean_cost_i, I_i = 1 / R_i",
+    "fallback": "ScoreCost ordering with posterior-MEAN rate (q / mean_cost) when all m* are infinite",
+    "cache": "per-arm dirty cache; m* recomputed only after that arm executes"
+  },
+  "budgets": {
+    "primary": [0.05, 0.10, 0.20],
+    "dense_sweep": [0.03, 0.05, 0.06, 0.07, 0.08, 0.10, 0.15, 0.20],
+    "semantics": "fraction of the total recorded execution time of the benchmark"
+  },
+  "amini_transfuser": {
+    "seeds": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+    "n_seeds": 12,
+    "routes": 36,
+    "executions": 500,
+    "fail_executions": 251,
+    "pass_executions": 249,
+    "prior": "Beta(1, 1)",
+    "sampling": "without replacement within each route pool",
+    "reference_positive": "p_hat > tau (23 routes at tau = 0.3)",
+    "simulator": "CARLA 0.9.10 / TransFuser (recorded traces, replayed offline)"
+  },
+  "sensodat_replay": {
+    "scenarios": 36006,
+    "evaluated_scenarios": 12135,
+    "failures": 4322,
+    "n_splits": 10,
+    "split_seeds": "20261001 + i for i in 0..9",
+    "nested_reps": 3,
+    "tiebreak_base": 1000,
+    "tiebreak_stream": "seed * 1000 + rep * 17 + int(time_frac * 1000)",
+    "prior": "source-trained HGB, Beta(1 + kappa*pi, 1 + kappa*(1 - pi)), kappa = 5",
+    "kappa": 5.0,
+    "transfer": "AmbieGen (source) -> Frenetic (target)",
+    "environment_for_bit_exact_rerun": "python 3.12 + scikit-learn 1.5.1 + numpy 1.26.4 + scipy 1.13.1"
+  },
+  "methods": {
+    "external_baselines": ["Uniform", "FailRerun", "APGAI", "ScoreCost"],
+    "internal_controls": ["Mean Planning", "OptimisticScoreCost"],
+    "ours": "ReproAlloc",
+    "raw_only_not_compared": ["ReproAlloc-OA"]
+  }
+}

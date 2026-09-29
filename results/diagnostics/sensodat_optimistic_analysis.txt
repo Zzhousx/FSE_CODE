@@ -1,0 +1,76 @@
+==============================================================================
+SENSODAT (AmbieGen->Frenetic): OPTIMISTIC ERCC vs FROZEN (10 splits)
+==============================================================================
+
+-- budget 5% --
+   Uniform                  0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   FailRerun                0.0173  (sd=0.0012, 95%CI pm 0.0007)
+   APGAI                    0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   ScoreCost                0.0170  (sd=0.0020, 95%CI pm 0.0013)
+   ReproAlloc               0.0203  (sd=0.0011, 95%CI pm 0.0007)
+   ReproAlloc-OA            0.0207  (sd=0.0014, 95%CI pm 0.0009)
+   ReproAlloc-Optimistic    0.0206  (sd=0.0015, 95%CI pm 0.0009)
+   paired diffs (matched on split), recall:
+     OPT - Uniform       : mean=+0.0206 95%CI=[+0.0197,+0.0215] wilcoxon p=0.0020 n=10
+     OPT - FailRerun     : mean=+0.0033 95%CI=[+0.0028,+0.0038] wilcoxon p=0.0020 n=10
+     OPT - APGAI         : mean=+0.0206 95%CI=[+0.0197,+0.0215] wilcoxon p=0.0020 n=10
+     OPT - ScoreCost     : mean=+0.0036 95%CI=[+0.0030,+0.0042] wilcoxon p=0.0020 n=10
+     OPT - ReproAlloc    : mean=+0.0003 95%CI=[-0.0001,+0.0007] wilcoxon p=0.2422 n=10
+     OPT - ReproAlloc-OA : mean=-0.0001 95%CI=[-0.0004,+0.0002] wilcoxon p=0.7695 n=10
+
+-- budget 10% --
+   Uniform                  0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   FailRerun                0.0342  (sd=0.0021, 95%CI pm 0.0013)
+   APGAI                    0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   ScoreCost                0.0344  (sd=0.0020, 95%CI pm 0.0013)
+   ReproAlloc               0.0388  (sd=0.0019, 95%CI pm 0.0012)
+   ReproAlloc-OA            0.0395  (sd=0.0018, 95%CI pm 0.0011)
+   ReproAlloc-Optimistic    0.0405  (sd=0.0016, 95%CI pm 0.0010)
+   paired diffs (matched on split), recall:
+     OPT - Uniform       : mean=+0.0405 95%CI=[+0.0395,+0.0415] wilcoxon p=0.0020 n=10
+     OPT - FailRerun     : mean=+0.0063 95%CI=[+0.0052,+0.0074] wilcoxon p=0.0020 n=10
+     OPT - APGAI         : mean=+0.0405 95%CI=[+0.0395,+0.0415] wilcoxon p=0.0020 n=10
+     OPT - ScoreCost     : mean=+0.0061 95%CI=[+0.0058,+0.0065] wilcoxon p=0.0020 n=10
+     OPT - ReproAlloc    : mean=+0.0017 95%CI=[+0.0007,+0.0027] wilcoxon p=0.0098 n=10
+     OPT - ReproAlloc-OA : mean=+0.0010 95%CI=[+0.0003,+0.0017] wilcoxon p=0.0547 n=10
+
+-- budget 20% --
+   Uniform                  0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   FailRerun                0.0691  (sd=0.0030, 95%CI pm 0.0019)
+   APGAI                    0.0000  (sd=0.0000, 95%CI pm 0.0000)
+   ScoreCost                0.0663  (sd=0.0021, 95%CI pm 0.0013)
+   ReproAlloc               0.0755  (sd=0.0020, 95%CI pm 0.0012)
+   ReproAlloc-OA            0.0761  (sd=0.0019, 95%CI pm 0.0012)
+   ReproAlloc-Optimistic    0.0782  (sd=0.0015, 95%CI pm 0.0009)
+   paired diffs (matched on split), recall:
+     OPT - Uniform       : mean=+0.0782 95%CI=[+0.0773,+0.0792] wilcoxon p=0.0020 n=10
+     OPT - FailRerun     : mean=+0.0092 95%CI=[+0.0078,+0.0106] wilcoxon p=0.0020 n=10
+     OPT - APGAI         : mean=+0.0782 95%CI=[+0.0773,+0.0792] wilcoxon p=0.0020 n=10
+     OPT - ScoreCost     : mean=+0.0120 95%CI=[+0.0114,+0.0126] wilcoxon p=0.0020 n=10
+     OPT - ReproAlloc    : mean=+0.0028 95%CI=[+0.0016,+0.0040] wilcoxon p=0.0039 n=10
+     OPT - ReproAlloc-OA : mean=+0.0021 95%CI=[+0.0009,+0.0033] wilcoxon p=0.0117 n=10
+
+==============================================================================
+DECISION LOGS (ReproAlloc-Optimistic) - SensoDat
+==============================================================================
+
+  budget 5%: optimistic executions=30899
+    picks where mean-index would choose differently: 9380 (30.4%)
+    executed arms with m_mean=inf but m_opt finite (fallback escape): 133 (0.4%)
+    optimistic fallback executions: 0 (0.0%)
+    m* reduction on executed arms (m_mean/m_opt): median=1.60 mean=1.78
+    q_opt - q_mean on executed arms: median=0.110 mean=0.123
+
+  budget 10%: optimistic executions=63887
+    picks where mean-index would choose differently: 21455 (33.6%)
+    executed arms with m_mean=inf but m_opt finite (fallback escape): 235 (0.4%)
+    optimistic fallback executions: 0 (0.0%)
+    m* reduction on executed arms (m_mean/m_opt): median=1.71 mean=1.99
+    q_opt - q_mean on executed arms: median=0.122 mean=0.136
+
+  budget 20%: optimistic executions=119494
+    picks where mean-index would choose differently: 40796 (34.1%)
+    executed arms with m_mean=inf but m_opt finite (fallback escape): 422 (0.4%)
+    optimistic fallback executions: 0 (0.0%)
+    m* reduction on executed arms (m_mean/m_opt): median=1.80 mean=2.17
+    q_opt - q_mean on executed arms: median=0.129 mean=0.143

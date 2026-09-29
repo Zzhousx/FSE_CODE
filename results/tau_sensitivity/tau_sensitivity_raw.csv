@@ -1,0 +1,1189 @@
+benchmark,tau,budget,unit,method,recall,executions,n_refpos,paper_method
+amini,0.3,0.05,2000,Uniform,0,30,23,Uniform
+amini,0.3,0.05,2000,FailRerun,0,18,23,FailRerun
+amini,0.3,0.05,2000,APGAI,0,29,23,APGAI
+amini,0.3,0.05,2000,ScoreCost,0.08695652174,31,23,ScoreCost
+amini,0.3,0.05,2000,ReproAlloc,0.04347826087,30,23,Mean Planning
+amini,0.3,0.05,2000,ReproAlloc-Optimistic,0.08695652174,31,23,ReproAlloc
+amini,0.3,0.1,2000,Uniform,0,52,23,Uniform
+amini,0.3,0.1,2000,FailRerun,0.04347826087,62,23,FailRerun
+amini,0.3,0.1,2000,APGAI,0.08695652174,58,23,APGAI
+amini,0.3,0.1,2000,ScoreCost,0.1304347826,53,23,ScoreCost
+amini,0.3,0.1,2000,ReproAlloc,0.04347826087,49,23,Mean Planning
+amini,0.3,0.1,2000,ReproAlloc-Optimistic,0.1739130435,59,23,ReproAlloc
+amini,0.3,0.2,2000,Uniform,0,99,23,Uniform
+amini,0.3,0.2,2000,FailRerun,0.1304347826,107,23,FailRerun
+amini,0.3,0.2,2000,APGAI,0.2608695652,108,23,APGAI
+amini,0.3,0.2,2000,ScoreCost,0.2173913043,115,23,ScoreCost
+amini,0.3,0.2,2000,ReproAlloc,0.1304347826,90,23,Mean Planning
+amini,0.3,0.2,2000,ReproAlloc-Optimistic,0.2608695652,108,23,ReproAlloc
+amini,0.3,0.05,2001,Uniform,0,29,23,Uniform
+amini,0.3,0.05,2001,FailRerun,0,29,23,FailRerun
+amini,0.3,0.05,2001,APGAI,0,26,23,APGAI
+amini,0.3,0.05,2001,ScoreCost,0,23,23,ScoreCost
+amini,0.3,0.05,2001,ReproAlloc,0.08695652174,28,23,Mean Planning
+amini,0.3,0.05,2001,ReproAlloc-Optimistic,0.04347826087,29,23,ReproAlloc
+amini,0.3,0.1,2001,Uniform,0,57,23,Uniform
+amini,0.3,0.1,2001,FailRerun,0.04347826087,74,23,FailRerun
+amini,0.3,0.1,2001,APGAI,0.08695652174,57,23,APGAI
+amini,0.3,0.1,2001,ScoreCost,0.1304347826,69,23,ScoreCost
+amini,0.3,0.1,2001,ReproAlloc,0.08695652174,44,23,Mean Planning
+amini,0.3,0.1,2001,ReproAlloc-Optimistic,0.1304347826,54,23,ReproAlloc
+amini,0.3,0.2,2001,Uniform,0,108,23,Uniform
+amini,0.3,0.2,2001,FailRerun,0.08695652174,94,23,FailRerun
+amini,0.3,0.2,2001,APGAI,0.2608695652,109,23,APGAI
+amini,0.3,0.2,2001,ScoreCost,0.1739130435,117,23,ScoreCost
+amini,0.3,0.2,2001,ReproAlloc,0.1304347826,80,23,Mean Planning
+amini,0.3,0.2,2001,ReproAlloc-Optimistic,0.2608695652,108,23,ReproAlloc
+amini,0.3,0.05,2002,Uniform,0,26,23,Uniform
+amini,0.3,0.05,2002,FailRerun,0,22,23,FailRerun
+amini,0.3,0.05,2002,APGAI,0,26,23,APGAI
+amini,0.3,0.05,2002,ScoreCost,0,29,23,ScoreCost
+amini,0.3,0.05,2002,ReproAlloc,0.04347826087,24,23,Mean Planning
+amini,0.3,0.05,2002,ReproAlloc-Optimistic,0,23,23,ReproAlloc
+amini,0.3,0.1,2002,Uniform,0,48,23,Uniform
+amini,0.3,0.1,2002,FailRerun,0.08695652174,46,23,FailRerun
+amini,0.3,0.1,2002,APGAI,0.08695652174,56,23,APGAI
+amini,0.3,0.1,2002,ScoreCost,0.04347826087,51,23,ScoreCost
+amini,0.3,0.1,2002,ReproAlloc,0.08695652174,50,23,Mean Planning
+amini,0.3,0.1,2002,ReproAlloc-Optimistic,0.08695652174,50,23,ReproAlloc
+amini,0.3,0.2,2002,Uniform,0,108,23,Uniform
+amini,0.3,0.2,2002,FailRerun,0.04347826087,68,23,FailRerun
+amini,0.3,0.2,2002,APGAI,0.1739130435,103,23,APGAI
+amini,0.3,0.2,2002,ScoreCost,0.2173913043,117,23,ScoreCost
+amini,0.3,0.2,2002,ReproAlloc,0.08695652174,90,23,Mean Planning
+amini,0.3,0.2,2002,ReproAlloc-Optimistic,0.2173913043,103,23,ReproAlloc
+amini,0.3,0.05,2003,Uniform,0,25,23,Uniform
+amini,0.3,0.05,2003,FailRerun,0.08695652174,21,23,FailRerun
+amini,0.3,0.05,2003,APGAI,0,27,23,APGAI
+amini,0.3,0.05,2003,ScoreCost,0.08695652174,31,23,ScoreCost
+amini,0.3,0.05,2003,ReproAlloc,0,32,23,Mean Planning
+amini,0.3,0.05,2003,ReproAlloc-Optimistic,0.04347826087,31,23,ReproAlloc
+amini,0.3,0.1,2003,Uniform,0,55,23,Uniform
+amini,0.3,0.1,2003,FailRerun,0.04347826087,43,23,FailRerun
+amini,0.3,0.1,2003,APGAI,0.04347826087,59,23,APGAI
+amini,0.3,0.1,2003,ScoreCost,0.08695652174,46,23,ScoreCost
+amini,0.3,0.1,2003,ReproAlloc,0.08695652174,51,23,Mean Planning
+amini,0.3,0.1,2003,ReproAlloc-Optimistic,0.1304347826,56,23,ReproAlloc
+amini,0.3,0.2,2003,Uniform,0,99,23,Uniform
+amini,0.3,0.2,2003,FailRerun,0.04347826087,117,23,FailRerun
+amini,0.3,0.2,2003,APGAI,0.2608695652,109,23,APGAI
+amini,0.3,0.2,2003,ScoreCost,0.2173913043,112,23,ScoreCost
+amini,0.3,0.2,2003,ReproAlloc,0.2173913043,104,23,Mean Planning
+amini,0.3,0.2,2003,ReproAlloc-Optimistic,0.2608695652,110,23,ReproAlloc
+amini,0.3,0.05,2004,Uniform,0,26,23,Uniform
+amini,0.3,0.05,2004,FailRerun,0.04347826087,27,23,FailRerun
+amini,0.3,0.05,2004,APGAI,0,26,23,APGAI
+amini,0.3,0.05,2004,ScoreCost,0.04347826087,33,23,ScoreCost
+amini,0.3,0.05,2004,ReproAlloc,0.04347826087,33,23,Mean Planning
+amini,0.3,0.05,2004,ReproAlloc-Optimistic,0.08695652174,27,23,ReproAlloc
+amini,0.3,0.1,2004,Uniform,0,53,23,Uniform
+amini,0.3,0.1,2004,FailRerun,0,52,23,FailRerun
+amini,0.3,0.1,2004,APGAI,0.04347826087,56,23,APGAI
+amini,0.3,0.1,2004,ScoreCost,0.1739130435,57,23,ScoreCost
+amini,0.3,0.1,2004,ReproAlloc,0.08695652174,51,23,Mean Planning
+amini,0.3,0.1,2004,ReproAlloc-Optimistic,0.1739130435,57,23,ReproAlloc
+amini,0.3,0.2,2004,Uniform,0,97,23,Uniform
+amini,0.3,0.2,2004,FailRerun,0.08695652174,146,23,FailRerun
+amini,0.3,0.2,2004,APGAI,0.2608695652,111,23,APGAI
+amini,0.3,0.2,2004,ScoreCost,0.2173913043,122,23,ScoreCost
+amini,0.3,0.2,2004,ReproAlloc,0.2173913043,98,23,Mean Planning
+amini,0.3,0.2,2004,ReproAlloc-Optimistic,0.2608695652,110,23,ReproAlloc
+amini,0.3,0.05,2005,Uniform,0,26,23,Uniform
+amini,0.3,0.05,2005,FailRerun,0,52,23,FailRerun
+amini,0.3,0.05,2005,APGAI,0,27,23,APGAI
+amini,0.3,0.05,2005,ScoreCost,0.04347826087,30,23,ScoreCost
+amini,0.3,0.05,2005,ReproAlloc,0.04347826087,31,23,Mean Planning
+amini,0.3,0.05,2005,ReproAlloc-Optimistic,0.08695652174,28,23,ReproAlloc
+amini,0.3,0.1,2005,Uniform,0,52,23,Uniform
+amini,0.3,0.1,2005,FailRerun,0.04347826087,58,23,FailRerun
+amini,0.3,0.1,2005,APGAI,0.08695652174,56,23,APGAI
+amini,0.3,0.1,2005,ScoreCost,0.08695652174,64,23,ScoreCost
+amini,0.3,0.1,2005,ReproAlloc,0.04347826087,50,23,Mean Planning
+amini,0.3,0.1,2005,ReproAlloc-Optimistic,0.1739130435,54,23,ReproAlloc
+amini,0.3,0.2,2005,Uniform,0,108,23,Uniform
+amini,0.3,0.2,2005,FailRerun,0.08695652174,99,23,FailRerun
+amini,0.3,0.2,2005,APGAI,0.2173913043,102,23,APGAI
+amini,0.3,0.2,2005,ScoreCost,0.2173913043,115,23,ScoreCost
+amini,0.3,0.2,2005,ReproAlloc,0.1304347826,93,23,Mean Planning
+amini,0.3,0.2,2005,ReproAlloc-Optimistic,0.2608695652,101,23,ReproAlloc
+amini,0.3,0.05,2006,Uniform,0,28,23,Uniform
+amini,0.3,0.05,2006,FailRerun,0,24,23,FailRerun
+amini,0.3,0.05,2006,APGAI,0,27,23,APGAI
+amini,0.3,0.05,2006,ScoreCost,0.04347826087,26,23,ScoreCost
+amini,0.3,0.05,2006,ReproAlloc,0.04347826087,25,23,Mean Planning
+amini,0.3,0.05,2006,ReproAlloc-Optimistic,0.08695652174,27,23,ReproAlloc
+amini,0.3,0.1,2006,Uniform,0,60,23,Uniform
+amini,0.3,0.1,2006,FailRerun,0.04347826087,48,23,FailRerun
+amini,0.3,0.1,2006,APGAI,0.08695652174,60,23,APGAI
+amini,0.3,0.1,2006,ScoreCost,0.08695652174,54,23,ScoreCost
+amini,0.3,0.1,2006,ReproAlloc,0.08695652174,51,23,Mean Planning
+amini,0.3,0.1,2006,ReproAlloc-Optimistic,0.1304347826,55,23,ReproAlloc
+amini,0.3,0.2,2006,Uniform,0,115,23,Uniform
+amini,0.3,0.2,2006,FailRerun,0,113,23,FailRerun
+amini,0.3,0.2,2006,APGAI,0.2608695652,111,23,APGAI
+amini,0.3,0.2,2006,ScoreCost,0.2173913043,112,23,ScoreCost
+amini,0.3,0.2,2006,ReproAlloc,0.2173913043,101,23,Mean Planning
+amini,0.3,0.2,2006,ReproAlloc-Optimistic,0.2608695652,110,23,ReproAlloc
+amini,0.3,0.05,2007,Uniform,0,29,23,Uniform
+amini,0.3,0.05,2007,FailRerun,0.04347826087,41,23,FailRerun
+amini,0.3,0.05,2007,APGAI,0,29,23,APGAI
+amini,0.3,0.05,2007,ScoreCost,0.04347826087,31,23,ScoreCost
+amini,0.3,0.05,2007,ReproAlloc,0.04347826087,37,23,Mean Planning
+amini,0.3,0.05,2007,ReproAlloc-Optimistic,0.08695652174,28,23,ReproAlloc
+amini,0.3,0.1,2007,Uniform,0,49,23,Uniform
+amini,0.3,0.1,2007,FailRerun,0.04347826087,50,23,FailRerun
+amini,0.3,0.1,2007,APGAI,0.04347826087,62,23,APGAI
+amini,0.3,0.1,2007,ScoreCost,0.04347826087,50,23,ScoreCost
+amini,0.3,0.1,2007,ReproAlloc,0.04347826087,44,23,Mean Planning
+amini,0.3,0.1,2007,ReproAlloc-Optimistic,0.1304347826,51,23,ReproAlloc
+amini,0.3,0.2,2007,Uniform,0,110,23,Uniform
+amini,0.3,0.2,2007,FailRerun,0.1304347826,115,23,FailRerun
+amini,0.3,0.2,2007,APGAI,0.1739130435,111,23,APGAI
+amini,0.3,0.2,2007,ScoreCost,0.2608695652,120,23,ScoreCost
+amini,0.3,0.2,2007,ReproAlloc,0.08695652174,92,23,Mean Planning
+amini,0.3,0.2,2007,ReproAlloc-Optimistic,0.2608695652,114,23,ReproAlloc
+amini,0.3,0.05,2008,Uniform,0,28,23,Uniform
+amini,0.3,0.05,2008,FailRerun,0.04347826087,24,23,FailRerun
+amini,0.3,0.05,2008,APGAI,0,28,23,APGAI
+amini,0.3,0.05,2008,ScoreCost,0.04347826087,32,23,ScoreCost
+amini,0.3,0.05,2008,ReproAlloc,0,29,23,Mean Planning
+amini,0.3,0.05,2008,ReproAlloc-Optimistic,0.08695652174,27,23,ReproAlloc
+amini,0.3,0.1,2008,Uniform,0,54,23,Uniform
+amini,0.3,0.1,2008,FailRerun,0,45,23,FailRerun
+amini,0.3,0.1,2008,APGAI,0.04347826087,56,23,APGAI
+amini,0.3,0.1,2008,ScoreCost,0.1304347826,61,23,ScoreCost
+amini,0.3,0.1,2008,ReproAlloc,0.1304347826,55,23,Mean Planning
+amini,0.3,0.1,2008,ReproAlloc-Optimistic,0.1304347826,53,23,ReproAlloc
+amini,0.3,0.2,2008,Uniform,0,107,23,Uniform
+amini,0.3,0.2,2008,FailRerun,0.1304347826,73,23,FailRerun
+amini,0.3,0.2,2008,APGAI,0.2173913043,104,23,APGAI
+amini,0.3,0.2,2008,ScoreCost,0.2173913043,114,23,ScoreCost
+amini,0.3,0.2,2008,ReproAlloc,0.1739130435,92,23,Mean Planning
+amini,0.3,0.2,2008,ReproAlloc-Optimistic,0.2173913043,106,23,ReproAlloc
+amini,0.3,0.05,2009,Uniform,0,24,23,Uniform
+amini,0.3,0.05,2009,FailRerun,0.04347826087,41,23,FailRerun
+amini,0.3,0.05,2009,APGAI,0,26,23,APGAI
+amini,0.3,0.05,2009,ScoreCost,0.04347826087,22,23,ScoreCost
+amini,0.3,0.05,2009,ReproAlloc,0.08695652174,31,23,Mean Planning
+amini,0.3,0.05,2009,ReproAlloc-Optimistic,0.08695652174,31,23,ReproAlloc
+amini,0.3,0.1,2009,Uniform,0,50,23,Uniform
+amini,0.3,0.1,2009,FailRerun,0.04347826087,67,23,FailRerun
+amini,0.3,0.1,2009,APGAI,0.04347826087,56,23,APGAI
+amini,0.3,0.1,2009,ScoreCost,0.1304347826,61,23,ScoreCost
+amini,0.3,0.1,2009,ReproAlloc,0.08695652174,51,23,Mean Planning
+amini,0.3,0.1,2009,ReproAlloc-Optimistic,0.1304347826,54,23,ReproAlloc
+amini,0.3,0.2,2009,Uniform,0,108,23,Uniform
+amini,0.3,0.2,2009,FailRerun,0.08695652174,114,23,FailRerun
+amini,0.3,0.2,2009,APGAI,0.1739130435,112,23,APGAI
+amini,0.3,0.2,2009,ScoreCost,0.1304347826,103,23,ScoreCost
+amini,0.3,0.2,2009,ReproAlloc,0.2173913043,105,23,Mean Planning
+amini,0.3,0.2,2009,ReproAlloc-Optimistic,0.2173913043,103,23,ReproAlloc
+amini,0.3,0.05,2010,Uniform,0,29,23,Uniform
+amini,0.3,0.05,2010,FailRerun,0,40,23,FailRerun
+amini,0.3,0.05,2010,APGAI,0,27,23,APGAI
+amini,0.3,0.05,2010,ScoreCost,0.04347826087,26,23,ScoreCost
+amini,0.3,0.05,2010,ReproAlloc,0.04347826087,35,23,Mean Planning
+amini,0.3,0.05,2010,ReproAlloc-Optimistic,0.04347826087,26,23,ReproAlloc
+amini,0.3,0.1,2010,Uniform,0,53,23,Uniform
+amini,0.3,0.1,2010,FailRerun,0.1304347826,57,23,FailRerun
+amini,0.3,0.1,2010,APGAI,0.04347826087,59,23,APGAI
+amini,0.3,0.1,2010,ScoreCost,0.08695652174,57,23,ScoreCost
+amini,0.3,0.1,2010,ReproAlloc,0.04347826087,67,23,Mean Planning
+amini,0.3,0.1,2010,ReproAlloc-Optimistic,0.1304347826,58,23,ReproAlloc
+amini,0.3,0.2,2010,Uniform,0,109,23,Uniform
+amini,0.3,0.2,2010,FailRerun,0.1739130435,128,23,FailRerun
+amini,0.3,0.2,2010,APGAI,0.2173913043,112,23,APGAI
+amini,0.3,0.2,2010,ScoreCost,0.1304347826,126,23,ScoreCost
+amini,0.3,0.2,2010,ReproAlloc,0.1304347826,103,23,Mean Planning
+amini,0.3,0.2,2010,ReproAlloc-Optimistic,0.2173913043,109,23,ReproAlloc
+amini,0.3,0.05,2011,Uniform,0,23,23,Uniform
+amini,0.3,0.05,2011,FailRerun,0,27,23,FailRerun
+amini,0.3,0.05,2011,APGAI,0,27,23,APGAI
+amini,0.3,0.05,2011,ScoreCost,0.04347826087,30,23,ScoreCost
+amini,0.3,0.05,2011,ReproAlloc,0.08695652174,27,23,Mean Planning
+amini,0.3,0.05,2011,ReproAlloc-Optimistic,0.04347826087,26,23,ReproAlloc
+amini,0.3,0.1,2011,Uniform,0,54,23,Uniform
+amini,0.3,0.1,2011,FailRerun,0,83,23,FailRerun
+amini,0.3,0.1,2011,APGAI,0.08695652174,57,23,APGAI
+amini,0.3,0.1,2011,ScoreCost,0.1304347826,54,23,ScoreCost
+amini,0.3,0.1,2011,ReproAlloc,0.08695652174,59,23,Mean Planning
+amini,0.3,0.1,2011,ReproAlloc-Optimistic,0.1739130435,62,23,ReproAlloc
+amini,0.3,0.2,2011,Uniform,0.04347826087,106,23,Uniform
+amini,0.3,0.2,2011,FailRerun,0,106,23,FailRerun
+amini,0.3,0.2,2011,APGAI,0.2608695652,103,23,APGAI
+amini,0.3,0.2,2011,ScoreCost,0.2608695652,119,23,ScoreCost
+amini,0.3,0.2,2011,ReproAlloc,0.1739130435,95,23,Mean Planning
+amini,0.3,0.2,2011,ReproAlloc-Optimistic,0.2608695652,106,23,ReproAlloc
+amini,0.2,0.05,2000,Uniform,0,30,26,Uniform
+amini,0.2,0.05,2000,FailRerun,0,18,26,FailRerun
+amini,0.2,0.05,2000,APGAI,0,29,26,APGAI
+amini,0.2,0.05,2000,ScoreCost,0.07692307692,29,26,ScoreCost
+amini,0.2,0.05,2000,ReproAlloc,0.07692307692,30,26,Mean Planning
+amini,0.2,0.05,2000,ReproAlloc-Optimistic,0.1153846154,30,26,ReproAlloc
+amini,0.2,0.1,2000,Uniform,0,52,26,Uniform
+amini,0.2,0.1,2000,FailRerun,0.03846153846,60,26,FailRerun
+amini,0.2,0.1,2000,APGAI,0.07692307692,56,26,APGAI
+amini,0.2,0.1,2000,ScoreCost,0.1153846154,52,26,ScoreCost
+amini,0.2,0.1,2000,ReproAlloc,0.1153846154,49,26,Mean Planning
+amini,0.2,0.1,2000,ReproAlloc-Optimistic,0.1923076923,57,26,ReproAlloc
+amini,0.2,0.2,2000,Uniform,0,99,26,Uniform
+amini,0.2,0.2,2000,FailRerun,0.1153846154,106,26,FailRerun
+amini,0.2,0.2,2000,APGAI,0.2692307692,107,26,APGAI
+amini,0.2,0.2,2000,ScoreCost,0.2692307692,111,26,ScoreCost
+amini,0.2,0.2,2000,ReproAlloc,0.1923076923,86,26,Mean Planning
+amini,0.2,0.2,2000,ReproAlloc-Optimistic,0.3076923077,106,26,ReproAlloc
+amini,0.2,0.05,2001,Uniform,0,29,26,Uniform
+amini,0.2,0.05,2001,FailRerun,0.03846153846,32,26,FailRerun
+amini,0.2,0.05,2001,APGAI,0,26,26,APGAI
+amini,0.2,0.05,2001,ScoreCost,0,23,26,ScoreCost
+amini,0.2,0.05,2001,ReproAlloc,0.07692307692,24,26,Mean Planning
+amini,0.2,0.05,2001,ReproAlloc-Optimistic,0.07692307692,31,26,ReproAlloc
+amini,0.2,0.1,2001,Uniform,0,57,26,Uniform
+amini,0.2,0.1,2001,FailRerun,0.03846153846,74,26,FailRerun
+amini,0.2,0.1,2001,APGAI,0.1538461538,57,26,APGAI
+amini,0.2,0.1,2001,ScoreCost,0.1153846154,71,26,ScoreCost
+amini,0.2,0.1,2001,ReproAlloc,0.07692307692,42,26,Mean Planning
+amini,0.2,0.1,2001,ReproAlloc-Optimistic,0.1153846154,58,26,ReproAlloc
+amini,0.2,0.2,2001,Uniform,0,108,26,Uniform
+amini,0.2,0.2,2001,FailRerun,0.1153846154,102,26,FailRerun
+amini,0.2,0.2,2001,APGAI,0.2307692308,109,26,APGAI
+amini,0.2,0.2,2001,ScoreCost,0.2307692308,116,26,ScoreCost
+amini,0.2,0.2,2001,ReproAlloc,0.1923076923,80,26,Mean Planning
+amini,0.2,0.2,2001,ReproAlloc-Optimistic,0.2692307692,107,26,ReproAlloc
+amini,0.2,0.05,2002,Uniform,0,26,26,Uniform
+amini,0.2,0.05,2002,FailRerun,0.03846153846,24,26,FailRerun
+amini,0.2,0.05,2002,APGAI,0,26,26,APGAI
+amini,0.2,0.05,2002,ScoreCost,0,29,26,ScoreCost
+amini,0.2,0.05,2002,ReproAlloc,0.07692307692,19,26,Mean Planning
+amini,0.2,0.05,2002,ReproAlloc-Optimistic,0.07692307692,27,26,ReproAlloc
+amini,0.2,0.1,2002,Uniform,0,48,26,Uniform
+amini,0.2,0.1,2002,FailRerun,0.1153846154,46,26,FailRerun
+amini,0.2,0.1,2002,APGAI,0.1153846154,54,26,APGAI
+amini,0.2,0.1,2002,ScoreCost,0.07692307692,57,26,ScoreCost
+amini,0.2,0.1,2002,ReproAlloc,0.1538461538,57,26,Mean Planning
+amini,0.2,0.1,2002,ReproAlloc-Optimistic,0.1538461538,49,26,ReproAlloc
+amini,0.2,0.2,2002,Uniform,0.07692307692,109,26,Uniform
+amini,0.2,0.2,2002,FailRerun,0.1923076923,91,26,FailRerun
+amini,0.2,0.2,2002,APGAI,0.2692307692,100,26,APGAI
+amini,0.2,0.2,2002,ScoreCost,0.2692307692,119,26,ScoreCost
+amini,0.2,0.2,2002,ReproAlloc,0.2692307692,94,26,Mean Planning
+amini,0.2,0.2,2002,ReproAlloc-Optimistic,0.3076923077,107,26,ReproAlloc
+amini,0.2,0.05,2003,Uniform,0,25,26,Uniform
+amini,0.2,0.05,2003,FailRerun,0.07692307692,20,26,FailRerun
+amini,0.2,0.05,2003,APGAI,0,27,26,APGAI
+amini,0.2,0.05,2003,ScoreCost,0.1153846154,33,26,ScoreCost
+amini,0.2,0.05,2003,ReproAlloc,0,32,26,Mean Planning
+amini,0.2,0.05,2003,ReproAlloc-Optimistic,0.07692307692,31,26,ReproAlloc
+amini,0.2,0.1,2003,Uniform,0,55,26,Uniform
+amini,0.2,0.1,2003,FailRerun,0.03846153846,46,26,FailRerun
+amini,0.2,0.1,2003,APGAI,0.07692307692,59,26,APGAI
+amini,0.2,0.1,2003,ScoreCost,0.1538461538,51,26,ScoreCost
+amini,0.2,0.1,2003,ReproAlloc,0.1153846154,46,26,Mean Planning
+amini,0.2,0.1,2003,ReproAlloc-Optimistic,0.1538461538,61,26,ReproAlloc
+amini,0.2,0.2,2003,Uniform,0,99,26,Uniform
+amini,0.2,0.2,2003,FailRerun,0.07692307692,119,26,FailRerun
+amini,0.2,0.2,2003,APGAI,0.2307692308,103,26,APGAI
+amini,0.2,0.2,2003,ScoreCost,0.2307692308,120,26,ScoreCost
+amini,0.2,0.2,2003,ReproAlloc,0.2307692308,104,26,Mean Planning
+amini,0.2,0.2,2003,ReproAlloc-Optimistic,0.2692307692,109,26,ReproAlloc
+amini,0.2,0.05,2004,Uniform,0,26,26,Uniform
+amini,0.2,0.05,2004,FailRerun,0.07692307692,30,26,FailRerun
+amini,0.2,0.05,2004,APGAI,0,26,26,APGAI
+amini,0.2,0.05,2004,ScoreCost,0.07692307692,33,26,ScoreCost
+amini,0.2,0.05,2004,ReproAlloc,0.07692307692,28,26,Mean Planning
+amini,0.2,0.05,2004,ReproAlloc-Optimistic,0.07692307692,26,26,ReproAlloc
+amini,0.2,0.1,2004,Uniform,0,53,26,Uniform
+amini,0.2,0.1,2004,FailRerun,0,52,26,FailRerun
+amini,0.2,0.1,2004,APGAI,0.07692307692,57,26,APGAI
+amini,0.2,0.1,2004,ScoreCost,0.1538461538,60,26,ScoreCost
+amini,0.2,0.1,2004,ReproAlloc,0.1538461538,57,26,Mean Planning
+amini,0.2,0.1,2004,ReproAlloc-Optimistic,0.1153846154,60,26,ReproAlloc
+amini,0.2,0.2,2004,Uniform,0,97,26,Uniform
+amini,0.2,0.2,2004,FailRerun,0.1153846154,146,26,FailRerun
+amini,0.2,0.2,2004,APGAI,0.2692307692,108,26,APGAI
+amini,0.2,0.2,2004,ScoreCost,0.2307692308,120,26,ScoreCost
+amini,0.2,0.2,2004,ReproAlloc,0.3461538462,101,26,Mean Planning
+amini,0.2,0.2,2004,ReproAlloc-Optimistic,0.3461538462,107,26,ReproAlloc
+amini,0.2,0.05,2005,Uniform,0,26,26,Uniform
+amini,0.2,0.05,2005,FailRerun,0,52,26,FailRerun
+amini,0.2,0.05,2005,APGAI,0,27,26,APGAI
+amini,0.2,0.05,2005,ScoreCost,0.07692307692,32,26,ScoreCost
+amini,0.2,0.05,2005,ReproAlloc,0,21,26,Mean Planning
+amini,0.2,0.05,2005,ReproAlloc-Optimistic,0.07692307692,29,26,ReproAlloc
+amini,0.2,0.1,2005,Uniform,0,52,26,Uniform
+amini,0.2,0.1,2005,FailRerun,0.03846153846,57,26,FailRerun
+amini,0.2,0.1,2005,APGAI,0.1153846154,55,26,APGAI
+amini,0.2,0.1,2005,ScoreCost,0.07692307692,62,26,ScoreCost
+amini,0.2,0.1,2005,ReproAlloc,0.07692307692,47,26,Mean Planning
+amini,0.2,0.1,2005,ReproAlloc-Optimistic,0.1538461538,54,26,ReproAlloc
+amini,0.2,0.2,2005,Uniform,0.07692307692,107,26,Uniform
+amini,0.2,0.2,2005,FailRerun,0.1538461538,99,26,FailRerun
+amini,0.2,0.2,2005,APGAI,0.2307692308,96,26,APGAI
+amini,0.2,0.2,2005,ScoreCost,0.1923076923,112,26,ScoreCost
+amini,0.2,0.2,2005,ReproAlloc,0.2307692308,89,26,Mean Planning
+amini,0.2,0.2,2005,ReproAlloc-Optimistic,0.2307692308,101,26,ReproAlloc
+amini,0.2,0.05,2006,Uniform,0,28,26,Uniform
+amini,0.2,0.05,2006,FailRerun,0,24,26,FailRerun
+amini,0.2,0.05,2006,APGAI,0,27,26,APGAI
+amini,0.2,0.05,2006,ScoreCost,0.03846153846,26,26,ScoreCost
+amini,0.2,0.05,2006,ReproAlloc,0.07692307692,26,26,Mean Planning
+amini,0.2,0.05,2006,ReproAlloc-Optimistic,0.07692307692,29,26,ReproAlloc
+amini,0.2,0.1,2006,Uniform,0,60,26,Uniform
+amini,0.2,0.1,2006,FailRerun,0.03846153846,54,26,FailRerun
+amini,0.2,0.1,2006,APGAI,0.1153846154,58,26,APGAI
+amini,0.2,0.1,2006,ScoreCost,0.07692307692,55,26,ScoreCost
+amini,0.2,0.1,2006,ReproAlloc,0.1153846154,48,26,Mean Planning
+amini,0.2,0.1,2006,ReproAlloc-Optimistic,0.1538461538,56,26,ReproAlloc
+amini,0.2,0.2,2006,Uniform,0.03846153846,114,26,Uniform
+amini,0.2,0.2,2006,FailRerun,0,113,26,FailRerun
+amini,0.2,0.2,2006,APGAI,0.2307692308,105,26,APGAI
+amini,0.2,0.2,2006,ScoreCost,0.2307692308,116,26,ScoreCost
+amini,0.2,0.2,2006,ReproAlloc,0.2692307692,90,26,Mean Planning
+amini,0.2,0.2,2006,ReproAlloc-Optimistic,0.3076923077,107,26,ReproAlloc
+amini,0.2,0.05,2007,Uniform,0,29,26,Uniform
+amini,0.2,0.05,2007,FailRerun,0.03846153846,41,26,FailRerun
+amini,0.2,0.05,2007,APGAI,0,29,26,APGAI
+amini,0.2,0.05,2007,ScoreCost,0.03846153846,31,26,ScoreCost
+amini,0.2,0.05,2007,ReproAlloc,0.03846153846,34,26,Mean Planning
+amini,0.2,0.05,2007,ReproAlloc-Optimistic,0.07692307692,28,26,ReproAlloc
+amini,0.2,0.1,2007,Uniform,0,49,26,Uniform
+amini,0.2,0.1,2007,FailRerun,0.03846153846,55,26,FailRerun
+amini,0.2,0.1,2007,APGAI,0.03846153846,61,26,APGAI
+amini,0.2,0.1,2007,ScoreCost,0.1153846154,67,26,ScoreCost
+amini,0.2,0.1,2007,ReproAlloc,0.1153846154,44,26,Mean Planning
+amini,0.2,0.1,2007,ReproAlloc-Optimistic,0.1923076923,53,26,ReproAlloc
+amini,0.2,0.2,2007,Uniform,0,110,26,Uniform
+amini,0.2,0.2,2007,FailRerun,0.1923076923,127,26,FailRerun
+amini,0.2,0.2,2007,APGAI,0.3461538462,109,26,APGAI
+amini,0.2,0.2,2007,ScoreCost,0.3076923077,123,26,ScoreCost
+amini,0.2,0.2,2007,ReproAlloc,0.3076923077,96,26,Mean Planning
+amini,0.2,0.2,2007,ReproAlloc-Optimistic,0.3076923077,114,26,ReproAlloc
+amini,0.2,0.05,2008,Uniform,0,28,26,Uniform
+amini,0.2,0.05,2008,FailRerun,0.03846153846,23,26,FailRerun
+amini,0.2,0.05,2008,APGAI,0,28,26,APGAI
+amini,0.2,0.05,2008,ScoreCost,0.1153846154,32,26,ScoreCost
+amini,0.2,0.05,2008,ReproAlloc,0,22,26,Mean Planning
+amini,0.2,0.05,2008,ReproAlloc-Optimistic,0.07692307692,22,26,ReproAlloc
+amini,0.2,0.1,2008,Uniform,0,54,26,Uniform
+amini,0.2,0.1,2008,FailRerun,0,45,26,FailRerun
+amini,0.2,0.1,2008,APGAI,0.07692307692,55,26,APGAI
+amini,0.2,0.1,2008,ScoreCost,0.1153846154,59,26,ScoreCost
+amini,0.2,0.1,2008,ReproAlloc,0.1538461538,52,26,Mean Planning
+amini,0.2,0.1,2008,ReproAlloc-Optimistic,0.1923076923,53,26,ReproAlloc
+amini,0.2,0.2,2008,Uniform,0.07692307692,108,26,Uniform
+amini,0.2,0.2,2008,FailRerun,0.1538461538,70,26,FailRerun
+amini,0.2,0.2,2008,APGAI,0.2692307692,102,26,APGAI
+amini,0.2,0.2,2008,ScoreCost,0.2692307692,111,26,ScoreCost
+amini,0.2,0.2,2008,ReproAlloc,0.2692307692,87,26,Mean Planning
+amini,0.2,0.2,2008,ReproAlloc-Optimistic,0.3076923077,102,26,ReproAlloc
+amini,0.2,0.05,2009,Uniform,0,24,26,Uniform
+amini,0.2,0.05,2009,FailRerun,0.03846153846,41,26,FailRerun
+amini,0.2,0.05,2009,APGAI,0,26,26,APGAI
+amini,0.2,0.05,2009,ScoreCost,0.1153846154,29,26,ScoreCost
+amini,0.2,0.05,2009,ReproAlloc,0.1153846154,29,26,Mean Planning
+amini,0.2,0.05,2009,ReproAlloc-Optimistic,0.07692307692,31,26,ReproAlloc
+amini,0.2,0.1,2009,Uniform,0,50,26,Uniform
+amini,0.2,0.1,2009,FailRerun,0.07692307692,66,26,FailRerun
+amini,0.2,0.1,2009,APGAI,0.07692307692,56,26,APGAI
+amini,0.2,0.1,2009,ScoreCost,0.1153846154,59,26,ScoreCost
+amini,0.2,0.1,2009,ReproAlloc,0.1923076923,56,26,Mean Planning
+amini,0.2,0.1,2009,ReproAlloc-Optimistic,0.1153846154,56,26,ReproAlloc
+amini,0.2,0.2,2009,Uniform,0,108,26,Uniform
+amini,0.2,0.2,2009,FailRerun,0.1153846154,116,26,FailRerun
+amini,0.2,0.2,2009,APGAI,0.1538461538,108,26,APGAI
+amini,0.2,0.2,2009,ScoreCost,0.1923076923,111,26,ScoreCost
+amini,0.2,0.2,2009,ReproAlloc,0.2692307692,98,26,Mean Planning
+amini,0.2,0.2,2009,ReproAlloc-Optimistic,0.2307692308,108,26,ReproAlloc
+amini,0.2,0.05,2010,Uniform,0,29,26,Uniform
+amini,0.2,0.05,2010,FailRerun,0,40,26,FailRerun
+amini,0.2,0.05,2010,APGAI,0,27,26,APGAI
+amini,0.2,0.05,2010,ScoreCost,0.03846153846,29,26,ScoreCost
+amini,0.2,0.05,2010,ReproAlloc,0.03846153846,35,26,Mean Planning
+amini,0.2,0.05,2010,ReproAlloc-Optimistic,0.07692307692,25,26,ReproAlloc
+amini,0.2,0.1,2010,Uniform,0,53,26,Uniform
+amini,0.2,0.1,2010,FailRerun,0.1153846154,53,26,FailRerun
+amini,0.2,0.1,2010,APGAI,0.03846153846,62,26,APGAI
+amini,0.2,0.1,2010,ScoreCost,0.1153846154,58,26,ScoreCost
+amini,0.2,0.1,2010,ReproAlloc,0.07692307692,69,26,Mean Planning
+amini,0.2,0.1,2010,ReproAlloc-Optimistic,0.1153846154,59,26,ReproAlloc
+amini,0.2,0.2,2010,Uniform,0,109,26,Uniform
+amini,0.2,0.2,2010,FailRerun,0.2692307692,143,26,FailRerun
+amini,0.2,0.2,2010,APGAI,0.2692307692,111,26,APGAI
+amini,0.2,0.2,2010,ScoreCost,0.2307692308,125,26,ScoreCost
+amini,0.2,0.2,2010,ReproAlloc,0.3076923077,104,26,Mean Planning
+amini,0.2,0.2,2010,ReproAlloc-Optimistic,0.3076923077,108,26,ReproAlloc
+amini,0.2,0.05,2011,Uniform,0,23,26,Uniform
+amini,0.2,0.05,2011,FailRerun,0,27,26,FailRerun
+amini,0.2,0.05,2011,APGAI,0,27,26,APGAI
+amini,0.2,0.05,2011,ScoreCost,0.07692307692,30,26,ScoreCost
+amini,0.2,0.05,2011,ReproAlloc,0.03846153846,24,26,Mean Planning
+amini,0.2,0.05,2011,ReproAlloc-Optimistic,0.03846153846,27,26,ReproAlloc
+amini,0.2,0.1,2011,Uniform,0,54,26,Uniform
+amini,0.2,0.1,2011,FailRerun,0,83,26,FailRerun
+amini,0.2,0.1,2011,APGAI,0.1153846154,56,26,APGAI
+amini,0.2,0.1,2011,ScoreCost,0.1538461538,55,26,ScoreCost
+amini,0.2,0.1,2011,ReproAlloc,0.07692307692,56,26,Mean Planning
+amini,0.2,0.1,2011,ReproAlloc-Optimistic,0.1923076923,61,26,ReproAlloc
+amini,0.2,0.2,2011,Uniform,0.07692307692,106,26,Uniform
+amini,0.2,0.2,2011,FailRerun,0,106,26,FailRerun
+amini,0.2,0.2,2011,APGAI,0.2692307692,98,26,APGAI
+amini,0.2,0.2,2011,ScoreCost,0.2307692308,124,26,ScoreCost
+amini,0.2,0.2,2011,ReproAlloc,0.2692307692,93,26,Mean Planning
+amini,0.2,0.2,2011,ReproAlloc-Optimistic,0.2692307692,105,26,ReproAlloc
+amini,0.4,0.05,2000,Uniform,0,30,20,Uniform
+amini,0.4,0.05,2000,FailRerun,0,18,20,FailRerun
+amini,0.4,0.05,2000,APGAI,0,29,20,APGAI
+amini,0.4,0.05,2000,ScoreCost,0,32,20,ScoreCost
+amini,0.4,0.05,2000,ReproAlloc,0,29,20,Mean Planning
+amini,0.4,0.05,2000,ReproAlloc-Optimistic,0.05,32,20,ReproAlloc
+amini,0.4,0.1,2000,Uniform,0,52,20,Uniform
+amini,0.4,0.1,2000,FailRerun,0,62,20,FailRerun
+amini,0.4,0.1,2000,APGAI,0.05,58,20,APGAI
+amini,0.4,0.1,2000,ScoreCost,0.05,53,20,ScoreCost
+amini,0.4,0.1,2000,ReproAlloc,0,55,20,Mean Planning
+amini,0.4,0.1,2000,ReproAlloc-Optimistic,0.05,60,20,ReproAlloc
+amini,0.4,0.2,2000,Uniform,0,99,20,Uniform
+amini,0.4,0.2,2000,FailRerun,0,108,20,FailRerun
+amini,0.4,0.2,2000,APGAI,0.1,110,20,APGAI
+amini,0.4,0.2,2000,ScoreCost,0.05,114,20,ScoreCost
+amini,0.4,0.2,2000,ReproAlloc,0,91,20,Mean Planning
+amini,0.4,0.2,2000,ReproAlloc-Optimistic,0.1,110,20,ReproAlloc
+amini,0.4,0.05,2001,Uniform,0,29,20,Uniform
+amini,0.4,0.05,2001,FailRerun,0,29,20,FailRerun
+amini,0.4,0.05,2001,APGAI,0,26,20,APGAI
+amini,0.4,0.05,2001,ScoreCost,0,23,20,ScoreCost
+amini,0.4,0.05,2001,ReproAlloc,0,28,20,Mean Planning
+amini,0.4,0.05,2001,ReproAlloc-Optimistic,0,28,20,ReproAlloc
+amini,0.4,0.1,2001,Uniform,0,57,20,Uniform
+amini,0.4,0.1,2001,FailRerun,0.05,75,20,FailRerun
+amini,0.4,0.1,2001,APGAI,0.05,58,20,APGAI
+amini,0.4,0.1,2001,ScoreCost,0.05,70,20,ScoreCost
+amini,0.4,0.1,2001,ReproAlloc,0,53,20,Mean Planning
+amini,0.4,0.1,2001,ReproAlloc-Optimistic,0.05,54,20,ReproAlloc
+amini,0.4,0.2,2001,Uniform,0,108,20,Uniform
+amini,0.4,0.2,2001,FailRerun,0.05,96,20,FailRerun
+amini,0.4,0.2,2001,APGAI,0.1,110,20,APGAI
+amini,0.4,0.2,2001,ScoreCost,0,113,20,ScoreCost
+amini,0.4,0.2,2001,ReproAlloc,0.05,81,20,Mean Planning
+amini,0.4,0.2,2001,ReproAlloc-Optimistic,0.1,111,20,ReproAlloc
+amini,0.4,0.05,2002,Uniform,0,26,20,Uniform
+amini,0.4,0.05,2002,FailRerun,0,22,20,FailRerun
+amini,0.4,0.05,2002,APGAI,0,26,20,APGAI
+amini,0.4,0.05,2002,ScoreCost,0,29,20,ScoreCost
+amini,0.4,0.05,2002,ReproAlloc,0.05,22,20,Mean Planning
+amini,0.4,0.05,2002,ReproAlloc-Optimistic,0,23,20,ReproAlloc
+amini,0.4,0.1,2002,Uniform,0,48,20,Uniform
+amini,0.4,0.1,2002,FailRerun,0,47,20,FailRerun
+amini,0.4,0.1,2002,APGAI,0,56,20,APGAI
+amini,0.4,0.1,2002,ScoreCost,0,51,20,ScoreCost
+amini,0.4,0.1,2002,ReproAlloc,0,58,20,Mean Planning
+amini,0.4,0.1,2002,ReproAlloc-Optimistic,0,50,20,ReproAlloc
+amini,0.4,0.2,2002,Uniform,0,108,20,Uniform
+amini,0.4,0.2,2002,FailRerun,0,69,20,FailRerun
+amini,0.4,0.2,2002,APGAI,0,104,20,APGAI
+amini,0.4,0.2,2002,ScoreCost,0.05,116,20,ScoreCost
+amini,0.4,0.2,2002,ReproAlloc,0,101,20,Mean Planning
+amini,0.4,0.2,2002,ReproAlloc-Optimistic,0.05,105,20,ReproAlloc
+amini,0.4,0.05,2003,Uniform,0,25,20,Uniform
+amini,0.4,0.05,2003,FailRerun,0,21,20,FailRerun
+amini,0.4,0.05,2003,APGAI,0,27,20,APGAI
+amini,0.4,0.05,2003,ScoreCost,0,30,20,ScoreCost
+amini,0.4,0.05,2003,ReproAlloc,0,32,20,Mean Planning
+amini,0.4,0.05,2003,ReproAlloc-Optimistic,0.05,32,20,ReproAlloc
+amini,0.4,0.1,2003,Uniform,0,55,20,Uniform
+amini,0.4,0.1,2003,FailRerun,0,43,20,FailRerun
+amini,0.4,0.1,2003,APGAI,0,60,20,APGAI
+amini,0.4,0.1,2003,ScoreCost,0,46,20,ScoreCost
+amini,0.4,0.1,2003,ReproAlloc,0,54,20,Mean Planning
+amini,0.4,0.1,2003,ReproAlloc-Optimistic,0,58,20,ReproAlloc
+amini,0.4,0.2,2003,Uniform,0,99,20,Uniform
+amini,0.4,0.2,2003,FailRerun,0,117,20,FailRerun
+amini,0.4,0.2,2003,APGAI,0.1,114,20,APGAI
+amini,0.4,0.2,2003,ScoreCost,0.1,109,20,ScoreCost
+amini,0.4,0.2,2003,ReproAlloc,0.05,101,20,Mean Planning
+amini,0.4,0.2,2003,ReproAlloc-Optimistic,0.1,113,20,ReproAlloc
+amini,0.4,0.05,2004,Uniform,0,26,20,Uniform
+amini,0.4,0.05,2004,FailRerun,0,28,20,FailRerun
+amini,0.4,0.05,2004,APGAI,0,26,20,APGAI
+amini,0.4,0.05,2004,ScoreCost,0,33,20,ScoreCost
+amini,0.4,0.05,2004,ReproAlloc,0.05,33,20,Mean Planning
+amini,0.4,0.05,2004,ReproAlloc-Optimistic,0,27,20,ReproAlloc
+amini,0.4,0.1,2004,Uniform,0,53,20,Uniform
+amini,0.4,0.1,2004,FailRerun,0,52,20,FailRerun
+amini,0.4,0.1,2004,APGAI,0.05,57,20,APGAI
+amini,0.4,0.1,2004,ScoreCost,0.05,54,20,ScoreCost
+amini,0.4,0.1,2004,ReproAlloc,0.05,59,20,Mean Planning
+amini,0.4,0.1,2004,ReproAlloc-Optimistic,0.1,57,20,ReproAlloc
+amini,0.4,0.2,2004,Uniform,0,97,20,Uniform
+amini,0.4,0.2,2004,FailRerun,0,145,20,FailRerun
+amini,0.4,0.2,2004,APGAI,0.1,110,20,APGAI
+amini,0.4,0.2,2004,ScoreCost,0.1,121,20,ScoreCost
+amini,0.4,0.2,2004,ReproAlloc,0.05,100,20,Mean Planning
+amini,0.4,0.2,2004,ReproAlloc-Optimistic,0.1,111,20,ReproAlloc
+amini,0.4,0.05,2005,Uniform,0,26,20,Uniform
+amini,0.4,0.05,2005,FailRerun,0,52,20,FailRerun
+amini,0.4,0.05,2005,APGAI,0,27,20,APGAI
+amini,0.4,0.05,2005,ScoreCost,0.05,26,20,ScoreCost
+amini,0.4,0.05,2005,ReproAlloc,0.05,27,20,Mean Planning
+amini,0.4,0.05,2005,ReproAlloc-Optimistic,0,29,20,ReproAlloc
+amini,0.4,0.1,2005,Uniform,0,52,20,Uniform
+amini,0.4,0.1,2005,FailRerun,0.05,58,20,FailRerun
+amini,0.4,0.1,2005,APGAI,0,56,20,APGAI
+amini,0.4,0.1,2005,ScoreCost,0,64,20,ScoreCost
+amini,0.4,0.1,2005,ReproAlloc,0,63,20,Mean Planning
+amini,0.4,0.1,2005,ReproAlloc-Optimistic,0.05,52,20,ReproAlloc
+amini,0.4,0.2,2005,Uniform,0,108,20,Uniform
+amini,0.4,0.2,2005,FailRerun,0.05,95,20,FailRerun
+amini,0.4,0.2,2005,APGAI,0.05,103,20,APGAI
+amini,0.4,0.2,2005,ScoreCost,0.05,116,20,ScoreCost
+amini,0.4,0.2,2005,ReproAlloc,0.05,92,20,Mean Planning
+amini,0.4,0.2,2005,ReproAlloc-Optimistic,0.05,102,20,ReproAlloc
+amini,0.4,0.05,2006,Uniform,0,28,20,Uniform
+amini,0.4,0.05,2006,FailRerun,0,24,20,FailRerun
+amini,0.4,0.05,2006,APGAI,0,27,20,APGAI
+amini,0.4,0.05,2006,ScoreCost,0,26,20,ScoreCost
+amini,0.4,0.05,2006,ReproAlloc,0,25,20,Mean Planning
+amini,0.4,0.05,2006,ReproAlloc-Optimistic,0.05,29,20,ReproAlloc
+amini,0.4,0.1,2006,Uniform,0,60,20,Uniform
+amini,0.4,0.1,2006,FailRerun,0,46,20,FailRerun
+amini,0.4,0.1,2006,APGAI,0.05,61,20,APGAI
+amini,0.4,0.1,2006,ScoreCost,0.05,54,20,ScoreCost
+amini,0.4,0.1,2006,ReproAlloc,0,57,20,Mean Planning
+amini,0.4,0.1,2006,ReproAlloc-Optimistic,0.05,52,20,ReproAlloc
+amini,0.4,0.2,2006,Uniform,0,115,20,Uniform
+amini,0.4,0.2,2006,FailRerun,0,113,20,FailRerun
+amini,0.4,0.2,2006,APGAI,0.1,113,20,APGAI
+amini,0.4,0.2,2006,ScoreCost,0.1,116,20,ScoreCost
+amini,0.4,0.2,2006,ReproAlloc,0,109,20,Mean Planning
+amini,0.4,0.2,2006,ReproAlloc-Optimistic,0.1,111,20,ReproAlloc
+amini,0.4,0.05,2007,Uniform,0,29,20,Uniform
+amini,0.4,0.05,2007,FailRerun,0,41,20,FailRerun
+amini,0.4,0.05,2007,APGAI,0,29,20,APGAI
+amini,0.4,0.05,2007,ScoreCost,0,31,20,ScoreCost
+amini,0.4,0.05,2007,ReproAlloc,0,37,20,Mean Planning
+amini,0.4,0.05,2007,ReproAlloc-Optimistic,0,29,20,ReproAlloc
+amini,0.4,0.1,2007,Uniform,0,49,20,Uniform
+amini,0.4,0.1,2007,FailRerun,0,50,20,FailRerun
+amini,0.4,0.1,2007,APGAI,0.05,62,20,APGAI
+amini,0.4,0.1,2007,ScoreCost,0,50,20,ScoreCost
+amini,0.4,0.1,2007,ReproAlloc,0.1,62,20,Mean Planning
+amini,0.4,0.1,2007,ReproAlloc-Optimistic,0,49,20,ReproAlloc
+amini,0.4,0.2,2007,Uniform,0,110,20,Uniform
+amini,0.4,0.2,2007,FailRerun,0.05,109,20,FailRerun
+amini,0.4,0.2,2007,APGAI,0.05,116,20,APGAI
+amini,0.4,0.2,2007,ScoreCost,0.1,124,20,ScoreCost
+amini,0.4,0.2,2007,ReproAlloc,0,93,20,Mean Planning
+amini,0.4,0.2,2007,ReproAlloc-Optimistic,0.05,113,20,ReproAlloc
+amini,0.4,0.05,2008,Uniform,0,28,20,Uniform
+amini,0.4,0.05,2008,FailRerun,0.05,25,20,FailRerun
+amini,0.4,0.05,2008,APGAI,0,28,20,APGAI
+amini,0.4,0.05,2008,ScoreCost,0,33,20,ScoreCost
+amini,0.4,0.05,2008,ReproAlloc,0,29,20,Mean Planning
+amini,0.4,0.05,2008,ReproAlloc-Optimistic,0,26,20,ReproAlloc
+amini,0.4,0.1,2008,Uniform,0,54,20,Uniform
+amini,0.4,0.1,2008,FailRerun,0,45,20,FailRerun
+amini,0.4,0.1,2008,APGAI,0.05,58,20,APGAI
+amini,0.4,0.1,2008,ScoreCost,0.05,62,20,ScoreCost
+amini,0.4,0.1,2008,ReproAlloc,0.05,59,20,Mean Planning
+amini,0.4,0.1,2008,ReproAlloc-Optimistic,0.05,57,20,ReproAlloc
+amini,0.4,0.2,2008,Uniform,0,107,20,Uniform
+amini,0.4,0.2,2008,FailRerun,0,76,20,FailRerun
+amini,0.4,0.2,2008,APGAI,0.05,108,20,APGAI
+amini,0.4,0.2,2008,ScoreCost,0.05,116,20,ScoreCost
+amini,0.4,0.2,2008,ReproAlloc,0.05,107,20,Mean Planning
+amini,0.4,0.2,2008,ReproAlloc-Optimistic,0.05,111,20,ReproAlloc
+amini,0.4,0.05,2009,Uniform,0,24,20,Uniform
+amini,0.4,0.05,2009,FailRerun,0,40,20,FailRerun
+amini,0.4,0.05,2009,APGAI,0,26,20,APGAI
+amini,0.4,0.05,2009,ScoreCost,0,19,20,ScoreCost
+amini,0.4,0.05,2009,ReproAlloc,0.05,33,20,Mean Planning
+amini,0.4,0.05,2009,ReproAlloc-Optimistic,0.05,32,20,ReproAlloc
+amini,0.4,0.1,2009,Uniform,0,50,20,Uniform
+amini,0.4,0.1,2009,FailRerun,0,67,20,FailRerun
+amini,0.4,0.1,2009,APGAI,0,54,20,APGAI
+amini,0.4,0.1,2009,ScoreCost,0,61,20,ScoreCost
+amini,0.4,0.1,2009,ReproAlloc,0.05,46,20,Mean Planning
+amini,0.4,0.1,2009,ReproAlloc-Optimistic,0.05,58,20,ReproAlloc
+amini,0.4,0.2,2009,Uniform,0,108,20,Uniform
+amini,0.4,0.2,2009,FailRerun,0,115,20,FailRerun
+amini,0.4,0.2,2009,APGAI,0.05,113,20,APGAI
+amini,0.4,0.2,2009,ScoreCost,0.05,100,20,ScoreCost
+amini,0.4,0.2,2009,ReproAlloc,0.1,107,20,Mean Planning
+amini,0.4,0.2,2009,ReproAlloc-Optimistic,0.1,110,20,ReproAlloc
+amini,0.4,0.05,2010,Uniform,0,29,20,Uniform
+amini,0.4,0.05,2010,FailRerun,0,40,20,FailRerun
+amini,0.4,0.05,2010,APGAI,0,27,20,APGAI
+amini,0.4,0.05,2010,ScoreCost,0.05,21,20,ScoreCost
+amini,0.4,0.05,2010,ReproAlloc,0,35,20,Mean Planning
+amini,0.4,0.05,2010,ReproAlloc-Optimistic,0,26,20,ReproAlloc
+amini,0.4,0.1,2010,Uniform,0,53,20,Uniform
+amini,0.4,0.1,2010,FailRerun,0,58,20,FailRerun
+amini,0.4,0.1,2010,APGAI,0,57,20,APGAI
+amini,0.4,0.1,2010,ScoreCost,0.05,57,20,ScoreCost
+amini,0.4,0.1,2010,ReproAlloc,0,68,20,Mean Planning
+amini,0.4,0.1,2010,ReproAlloc-Optimistic,0.05,59,20,ReproAlloc
+amini,0.4,0.2,2010,Uniform,0,109,20,Uniform
+amini,0.4,0.2,2010,FailRerun,0.05,123,20,FailRerun
+amini,0.4,0.2,2010,APGAI,0.05,109,20,APGAI
+amini,0.4,0.2,2010,ScoreCost,0,126,20,ScoreCost
+amini,0.4,0.2,2010,ReproAlloc,0,103,20,Mean Planning
+amini,0.4,0.2,2010,ReproAlloc-Optimistic,0.05,109,20,ReproAlloc
+amini,0.4,0.05,2011,Uniform,0,23,20,Uniform
+amini,0.4,0.05,2011,FailRerun,0,27,20,FailRerun
+amini,0.4,0.05,2011,APGAI,0,27,20,APGAI
+amini,0.4,0.05,2011,ScoreCost,0,30,20,ScoreCost
+amini,0.4,0.05,2011,ReproAlloc,0,27,20,Mean Planning
+amini,0.4,0.05,2011,ReproAlloc-Optimistic,0,24,20,ReproAlloc
+amini,0.4,0.1,2011,Uniform,0,54,20,Uniform
+amini,0.4,0.1,2011,FailRerun,0,83,20,FailRerun
+amini,0.4,0.1,2011,APGAI,0.05,58,20,APGAI
+amini,0.4,0.1,2011,ScoreCost,0,54,20,ScoreCost
+amini,0.4,0.1,2011,ReproAlloc,0.05,62,20,Mean Planning
+amini,0.4,0.1,2011,ReproAlloc-Optimistic,0,62,20,ReproAlloc
+amini,0.4,0.2,2011,Uniform,0,105,20,Uniform
+amini,0.4,0.2,2011,FailRerun,0,106,20,FailRerun
+amini,0.4,0.2,2011,APGAI,0.1,108,20,APGAI
+amini,0.4,0.2,2011,ScoreCost,0.1,120,20,ScoreCost
+amini,0.4,0.2,2011,ReproAlloc,0.05,105,20,Mean Planning
+amini,0.4,0.2,2011,ReproAlloc-Optimistic,0.1,112,20,ReproAlloc
+sensodat,0.3,0.05,0,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,0,FailRerun,0.01619620546,,-1,FailRerun
+sensodat,0.3,0.05,0,ReproAlloc,0.01935832176,,-1,Mean Planning
+sensodat,0.3,0.05,0,ReproAlloc-Optimistic,0.02028381922,,-1,ReproAlloc
+sensodat,0.3,0.05,0,ScoreCost,0.01619620546,,-1,ScoreCost
+sensodat,0.3,0.05,0,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,1,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,1,FailRerun,0.0159648311,,-1,FailRerun
+sensodat,0.3,0.05,1,ReproAlloc,0.01897269783,,-1,Mean Planning
+sensodat,0.3,0.05,1,ReproAlloc-Optimistic,0.01874132346,,-1,ReproAlloc
+sensodat,0.3,0.05,1,ScoreCost,0.01480795928,,-1,ScoreCost
+sensodat,0.3,0.05,1,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,2,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,2,FailRerun,0.01573345673,,-1,FailRerun
+sensodat,0.3,0.05,2,ReproAlloc,0.0197439457,,-1,Mean Planning
+sensodat,0.3,0.05,2,ReproAlloc-Optimistic,0.02005244486,,-1,ReproAlloc
+sensodat,0.3,0.05,2,ScoreCost,0.01735307728,,-1,ScoreCost
+sensodat,0.3,0.05,2,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,3,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,3,FailRerun,0.01689032855,,-1,FailRerun
+sensodat,0.3,0.05,3,ReproAlloc,0.02090081752,,-1,Mean Planning
+sensodat,0.3,0.05,3,ReproAlloc-Optimistic,0.02036094401,,-1,ReproAlloc
+sensodat,0.3,0.05,3,ScoreCost,0.01689032855,,-1,ScoreCost
+sensodat,0.3,0.05,3,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,4,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,4,FailRerun,0.01781582601,,-1,FailRerun
+sensodat,0.3,0.05,4,ReproAlloc,0.02036094401,,-1,Mean Planning
+sensodat,0.3,0.05,4,ReproAlloc-Optimistic,0.02066944316,,-1,ReproAlloc
+sensodat,0.3,0.05,4,ScoreCost,0.01735307728,,-1,ScoreCost
+sensodat,0.3,0.05,4,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,5,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,5,FailRerun,0.01758445164,,-1,FailRerun
+sensodat,0.3,0.05,5,ReproAlloc,0.01935832176,,-1,Mean Planning
+sensodat,0.3,0.05,5,ReproAlloc-Optimistic,0.01982107049,,-1,ReproAlloc
+sensodat,0.3,0.05,5,ScoreCost,0.01480795928,,-1,ScoreCost
+sensodat,0.3,0.05,5,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,6,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,6,FailRerun,0.01897269783,,-1,FailRerun
+sensodat,0.3,0.05,6,ReproAlloc,0.02252043807,,-1,Mean Planning
+sensodat,0.3,0.05,6,ReproAlloc-Optimistic,0.02367730989,,-1,ReproAlloc
+sensodat,0.3,0.05,6,ScoreCost,0.01989819528,,-1,ScoreCost
+sensodat,0.3,0.05,6,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,7,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,7,FailRerun,0.01920407219,,-1,FailRerun
+sensodat,0.3,0.05,7,ReproAlloc,0.02097794231,,-1,Mean Planning
+sensodat,0.3,0.05,7,ReproAlloc-Optimistic,0.02213481413,,-1,ReproAlloc
+sensodat,0.3,0.05,7,ScoreCost,0.01920407219,,-1,ScoreCost
+sensodat,0.3,0.05,7,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,8,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,8,FailRerun,0.01665895419,,-1,FailRerun
+sensodat,0.3,0.05,8,ReproAlloc,0.01982107049,,-1,Mean Planning
+sensodat,0.3,0.05,8,ReproAlloc-Optimistic,0.01904982261,,-1,ReproAlloc
+sensodat,0.3,0.05,8,ScoreCost,0.01411383619,,-1,ScoreCost
+sensodat,0.3,0.05,8,Uniform,0,,-1,Uniform
+sensodat,0.3,0.05,9,APGAI,0,,-1,APGAI
+sensodat,0.3,0.05,9,FailRerun,0.01781582601,,-1,FailRerun
+sensodat,0.3,0.05,9,ReproAlloc,0.02128644146,,-1,Mean Planning
+sensodat,0.3,0.05,9,ReproAlloc-Optimistic,0.02128644146,,-1,ReproAlloc
+sensodat,0.3,0.05,9,ScoreCost,0.01920407219,,-1,ScoreCost
+sensodat,0.3,0.05,9,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,0,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,0,FailRerun,0.03192966219,,-1,FailRerun
+sensodat,0.3,0.1,0,ReproAlloc,0.03794539565,,-1,Mean Planning
+sensodat,0.3,0.1,0,ReproAlloc-Optimistic,0.04187875983,,-1,ReproAlloc
+sensodat,0.3,0.1,0,ScoreCost,0.03586302638,,-1,ScoreCost
+sensodat,0.3,0.1,0,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,1,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,1,FailRerun,0.03169828783,,-1,FailRerun
+sensodat,0.3,0.1,1,ReproAlloc,0.03717414777,,-1,Mean Planning
+sensodat,0.3,0.1,1,ReproAlloc-Optimistic,0.03925651704,,-1,ReproAlloc
+sensodat,0.3,0.1,1,ScoreCost,0.03354928274,,-1,ScoreCost
+sensodat,0.3,0.1,1,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,2,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,2,FailRerun,0.03262378528,,-1,FailRerun
+sensodat,0.3,0.1,2,ReproAlloc,0.03863951874,,-1,Mean Planning
+sensodat,0.3,0.1,2,ReproAlloc-Optimistic,0.03887089311,,-1,ReproAlloc
+sensodat,0.3,0.1,2,ScoreCost,0.03169828783,,-1,ScoreCost
+sensodat,0.3,0.1,2,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,3,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,3,FailRerun,0.03447478019,,-1,FailRerun
+sensodat,0.3,0.1,3,ReproAlloc,0.03879376832,,-1,Mean Planning
+sensodat,0.3,0.1,3,ReproAlloc-Optimistic,0.03987351535,,-1,ReproAlloc
+sensodat,0.3,0.1,3,ScoreCost,0.0337806571,,-1,ScoreCost
+sensodat,0.3,0.1,3,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,4,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,4,FailRerun,0.03354928274,,-1,FailRerun
+sensodat,0.3,0.1,4,ReproAlloc,0.03941076662,,-1,Mean Planning
+sensodat,0.3,0.1,4,ReproAlloc-Optimistic,0.04025913929,,-1,ReproAlloc
+sensodat,0.3,0.1,4,ScoreCost,0.03447478019,,-1,ScoreCost
+sensodat,0.3,0.1,4,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,5,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,5,FailRerun,0.03331790838,,-1,FailRerun
+sensodat,0.3,0.1,5,ReproAlloc,0.03655714947,,-1,Mean Planning
+sensodat,0.3,0.1,5,ReproAlloc-Optimistic,0.04064476323,,-1,ReproAlloc
+sensodat,0.3,0.1,5,ScoreCost,0.03401203147,,-1,ScoreCost
+sensodat,0.3,0.1,5,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,6,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,6,FailRerun,0.03817677001,,-1,FailRerun
+sensodat,0.3,0.1,6,ReproAlloc,0.04203300941,,-1,Mean Planning
+sensodat,0.3,0.1,6,ReproAlloc-Optimistic,0.04257288292,,-1,ReproAlloc
+sensodat,0.3,0.1,6,ScoreCost,0.03678852383,,-1,ScoreCost
+sensodat,0.3,0.1,6,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,7,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,7,FailRerun,0.03655714947,,-1,FailRerun
+sensodat,0.3,0.1,7,ReproAlloc,0.03987351535,,-1,Mean Planning
+sensodat,0.3,0.1,7,ReproAlloc-Optimistic,0.04303563165,,-1,ReproAlloc
+sensodat,0.3,0.1,7,ScoreCost,0.03771402129,,-1,ScoreCost
+sensodat,0.3,0.1,7,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,8,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,8,FailRerun,0.03401203147,,-1,FailRerun
+sensodat,0.3,0.1,8,ReproAlloc,0.03655714947,,-1,Mean Planning
+sensodat,0.3,0.1,8,ReproAlloc-Optimistic,0.03817677001,,-1,ReproAlloc
+sensodat,0.3,0.1,8,ScoreCost,0.0312355391,,-1,ScoreCost
+sensodat,0.3,0.1,8,Uniform,0,,-1,Uniform
+sensodat,0.3,0.1,9,APGAI,0,,-1,APGAI
+sensodat,0.3,0.1,9,FailRerun,0.03609440074,,-1,FailRerun
+sensodat,0.3,0.1,9,ReproAlloc,0.04141601111,,-1,Mean Planning
+sensodat,0.3,0.1,9,ReproAlloc-Optimistic,0.04072188801,,-1,ReproAlloc
+sensodat,0.3,0.1,9,ScoreCost,0.03493752892,,-1,ScoreCost
+sensodat,0.3,0.1,9,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,0,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,0,FailRerun,0.06686719112,,-1,FailRerun
+sensodat,0.3,0.2,0,ReproAlloc,0.07565941694,,-1,Mean Planning
+sensodat,0.3,0.2,0,ReproAlloc-Optimistic,0.07565941694,,-1,ReproAlloc
+sensodat,0.3,0.2,0,ScoreCost,0.06409069875,,-1,ScoreCost
+sensodat,0.3,0.2,0,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,1,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,1,FailRerun,0.06663581675,,-1,FailRerun
+sensodat,0.3,0.2,1,ReproAlloc,0.07604504088,,-1,Mean Planning
+sensodat,0.3,0.2,1,ReproAlloc-Optimistic,0.07704766312,,-1,ReproAlloc
+sensodat,0.3,0.2,1,ScoreCost,0.06362795002,,-1,ScoreCost
+sensodat,0.3,0.2,1,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,2,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,2,FailRerun,0.06732993984,,-1,FailRerun
+sensodat,0.3,0.2,2,ReproAlloc,0.07226592627,,-1,Mean Planning
+sensodat,0.3,0.2,2,ReproAlloc-Optimistic,0.0784359093,,-1,ReproAlloc
+sensodat,0.3,0.2,2,ScoreCost,0.06501619621,,-1,ScoreCost
+sensodat,0.3,0.2,2,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,3,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,3,FailRerun,0.06802406293,,-1,FailRerun
+sensodat,0.3,0.2,3,ReproAlloc,0.07481104427,,-1,Mean Planning
+sensodat,0.3,0.2,3,ReproAlloc-Optimistic,0.077818911,,-1,ReproAlloc
+sensodat,0.3,0.2,3,ScoreCost,0.0657103193,,-1,ScoreCost
+sensodat,0.3,0.2,3,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,4,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,4,FailRerun,0.06871818602,,-1,FailRerun
+sensodat,0.3,0.2,4,ReproAlloc,0.07380842203,,-1,Mean Planning
+sensodat,0.3,0.2,4,ReproAlloc-Optimistic,0.07866728366,,-1,ReproAlloc
+sensodat,0.3,0.2,4,ScoreCost,0.06686719112,,-1,ScoreCost
+sensodat,0.3,0.2,4,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,5,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,5,FailRerun,0.06709856548,,-1,FailRerun
+sensodat,0.3,0.2,5,ReproAlloc,0.07519666821,,-1,Mean Planning
+sensodat,0.3,0.2,5,ReproAlloc-Optimistic,0.07936140676,,-1,ReproAlloc
+sensodat,0.3,0.2,5,ScoreCost,0.06779268857,,-1,ScoreCost
+sensodat,0.3,0.2,5,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,6,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,6,FailRerun,0.07288292457,,-1,FailRerun
+sensodat,0.3,0.2,6,ReproAlloc,0.0784359093,,-1,Mean Planning
+sensodat,0.3,0.2,6,ReproAlloc-Optimistic,0.07936140676,,-1,ReproAlloc
+sensodat,0.3,0.2,6,ScoreCost,0.06756131421,,-1,ScoreCost
+sensodat,0.3,0.2,6,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,7,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,7,FailRerun,0.07473391948,,-1,FailRerun
+sensodat,0.3,0.2,7,ReproAlloc,0.07851303409,,-1,Mean Planning
+sensodat,0.3,0.2,7,ReproAlloc-Optimistic,0.0809810273,,-1,ReproAlloc
+sensodat,0.3,0.2,7,ScoreCost,0.0708005553,,-1,ScoreCost
+sensodat,0.3,0.2,7,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,8,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,8,FailRerun,0.06640444239,,-1,FailRerun
+sensodat,0.3,0.2,8,ReproAlloc,0.07357704766,,-1,Mean Planning
+sensodat,0.3,0.2,8,ReproAlloc-Optimistic,0.07735616227,,-1,ReproAlloc
+sensodat,0.3,0.2,8,ScoreCost,0.06501619621,,-1,ScoreCost
+sensodat,0.3,0.2,8,Uniform,0,,-1,Uniform
+sensodat,0.3,0.2,9,APGAI,0,,-1,APGAI
+sensodat,0.3,0.2,9,FailRerun,0.07195742712,,-1,FailRerun
+sensodat,0.3,0.2,9,ReproAlloc,0.07635354003,,-1,Mean Planning
+sensodat,0.3,0.2,9,ReproAlloc-Optimistic,0.07774178621,,-1,ReproAlloc
+sensodat,0.3,0.2,9,ScoreCost,0.06640444239,,-1,ScoreCost
+sensodat,0.3,0.2,9,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,0,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,0,FailRerun,0.02406293383,,-1,FailRerun
+sensodat,0.2,0.05,0,ReproAlloc,0.02583680395,,-1,Mean Planning
+sensodat,0.2,0.05,0,ReproAlloc-Optimistic,0.02591392874,,-1,ReproAlloc
+sensodat,0.2,0.05,0,ScoreCost,0.01804720037,,-1,ScoreCost
+sensodat,0.2,0.05,0,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,1,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,1,FailRerun,0.02336881074,,-1,FailRerun
+sensodat,0.2,0.05,1,ReproAlloc,0.02529693043,,-1,Mean Planning
+sensodat,0.2,0.05,1,ReproAlloc-Optimistic,0.02606817831,,-1,ReproAlloc
+sensodat,0.2,0.05,1,ScoreCost,0.01619620546,,-1,ScoreCost
+sensodat,0.2,0.05,1,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,2,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,2,FailRerun,0.02336881074,,-1,FailRerun
+sensodat,0.2,0.05,2,ReproAlloc,0.02660805183,,-1,Mean Planning
+sensodat,0.2,0.05,2,ReproAlloc-Optimistic,0.02390868425,,-1,ReproAlloc
+sensodat,0.2,0.05,2,ScoreCost,0.01897269783,,-1,ScoreCost
+sensodat,0.2,0.05,2,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,3,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,3,FailRerun,0.02452568255,,-1,FailRerun
+sensodat,0.2,0.05,3,ReproAlloc,0.02683942619,,-1,Mean Planning
+sensodat,0.2,0.05,3,ReproAlloc-Optimistic,0.02537405522,,-1,ReproAlloc
+sensodat,0.2,0.05,3,ScoreCost,0.0185099491,,-1,ScoreCost
+sensodat,0.2,0.05,3,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,4,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,4,FailRerun,0.02521980565,,-1,FailRerun
+sensodat,0.2,0.05,4,ReproAlloc,0.02753354928,,-1,Mean Planning
+sensodat,0.2,0.05,4,ReproAlloc-Optimistic,0.02683942619,,-1,ReproAlloc
+sensodat,0.2,0.05,4,ScoreCost,0.01989819528,,-1,ScoreCost
+sensodat,0.2,0.05,4,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,5,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,5,FailRerun,0.02475705692,,-1,FailRerun
+sensodat,0.2,0.05,5,ReproAlloc,0.02529693043,,-1,Mean Planning
+sensodat,0.2,0.05,5,ReproAlloc-Optimistic,0.02336881074,,-1,ReproAlloc
+sensodat,0.2,0.05,5,ScoreCost,0.01758445164,,-1,ScoreCost
+sensodat,0.2,0.05,5,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,6,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,6,FailRerun,0.02822767237,,-1,FailRerun
+sensodat,0.2,0.05,6,ReproAlloc,0.03031004165,,-1,Mean Planning
+sensodat,0.2,0.05,6,ReproAlloc-Optimistic,0.02745642449,,-1,ReproAlloc
+sensodat,0.2,0.05,6,ScoreCost,0.02313743637,,-1,ScoreCost
+sensodat,0.2,0.05,6,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,7,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,7,FailRerun,0.02753354928,,-1,FailRerun
+sensodat,0.2,0.05,7,ReproAlloc,0.02876754589,,-1,Mean Planning
+sensodat,0.2,0.05,7,ReproAlloc-Optimistic,0.02791917322,,-1,ReproAlloc
+sensodat,0.2,0.05,7,ScoreCost,0.02198056455,,-1,ScoreCost
+sensodat,0.2,0.05,7,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,8,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,8,FailRerun,0.02429430819,,-1,FailRerun
+sensodat,0.2,0.05,8,ReproAlloc,0.0261453031,,-1,Mean Planning
+sensodat,0.2,0.05,8,ReproAlloc-Optimistic,0.02460280734,,-1,ReproAlloc
+sensodat,0.2,0.05,8,ScoreCost,0.01619620546,,-1,ScoreCost
+sensodat,0.2,0.05,8,Uniform,0,,-1,Uniform
+sensodat,0.2,0.05,9,APGAI,0,,-1,APGAI
+sensodat,0.2,0.05,9,FailRerun,0.02660805183,,-1,FailRerun
+sensodat,0.2,0.05,9,ReproAlloc,0.02838192195,,-1,Mean Planning
+sensodat,0.2,0.05,9,ReproAlloc-Optimistic,0.02722505013,,-1,ReproAlloc
+sensodat,0.2,0.05,9,ScoreCost,0.0210550671,,-1,ScoreCost
+sensodat,0.2,0.05,9,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,0,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,0,FailRerun,0.04696899584,,-1,FailRerun
+sensodat,0.2,0.1,0,ReproAlloc,0.05313897887,,-1,Mean Planning
+sensodat,0.2,0.1,0,ReproAlloc-Optimistic,0.04928273947,,-1,ReproAlloc
+sensodat,0.2,0.1,0,ScoreCost,0.0395650162,,-1,ScoreCost
+sensodat,0.2,0.1,0,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,1,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,1,FailRerun,0.04650624711,,-1,FailRerun
+sensodat,0.2,0.1,1,ReproAlloc,0.05097948481,,-1,Mean Planning
+sensodat,0.2,0.1,1,ReproAlloc-Optimistic,0.04858861638,,-1,ReproAlloc
+sensodat,0.2,0.1,1,ScoreCost,0.03748264692,,-1,ScoreCost
+sensodat,0.2,0.1,1,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,2,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,2,FailRerun,0.04928273947,,-1,FailRerun
+sensodat,0.2,0.1,2,ReproAlloc,0.05082523523,,-1,Mean Planning
+sensodat,0.2,0.1,2,ReproAlloc-Optimistic,0.04866574117,,-1,ReproAlloc
+sensodat,0.2,0.1,2,ScoreCost,0.03678852383,,-1,ScoreCost
+sensodat,0.2,0.1,2,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,3,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,3,FailRerun,0.04951411384,,-1,FailRerun
+sensodat,0.2,0.1,3,ReproAlloc,0.05367885238,,-1,Mean Planning
+sensodat,0.2,0.1,3,ReproAlloc-Optimistic,0.05151935832,,-1,ReproAlloc
+sensodat,0.2,0.1,3,ScoreCost,0.03863951874,,-1,ScoreCost
+sensodat,0.2,0.1,3,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,4,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,4,FailRerun,0.04928273947,,-1,FailRerun
+sensodat,0.2,0.1,4,ReproAlloc,0.05398735153,,-1,Mean Planning
+sensodat,0.2,0.1,4,ReproAlloc-Optimistic,0.05105660959,,-1,ReproAlloc
+sensodat,0.2,0.1,4,ScoreCost,0.0395650162,,-1,ScoreCost
+sensodat,0.2,0.1,4,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,5,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,5,FailRerun,0.04743174456,,-1,FailRerun
+sensodat,0.2,0.1,5,ReproAlloc,0.05213635663,,-1,Mean Planning
+sensodat,0.2,0.1,5,ReproAlloc-Optimistic,0.04997686256,,-1,ReproAlloc
+sensodat,0.2,0.1,5,ScoreCost,0.03863951874,,-1,ScoreCost
+sensodat,0.2,0.1,5,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,6,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,6,FailRerun,0.05437297547,,-1,FailRerun
+sensodat,0.2,0.1,6,ReproAlloc,0.05691809348,,-1,Mean Planning
+sensodat,0.2,0.1,6,ReproAlloc-Optimistic,0.05329322844,,-1,ReproAlloc
+sensodat,0.2,0.1,6,ScoreCost,0.04141601111,,-1,ScoreCost
+sensodat,0.2,0.1,6,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,7,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,7,FailRerun,0.05275335493,,-1,FailRerun
+sensodat,0.2,0.1,7,ReproAlloc,0.05714946784,,-1,Mean Planning
+sensodat,0.2,0.1,7,ReproAlloc-Optimistic,0.05552984729,,-1,ReproAlloc
+sensodat,0.2,0.1,7,ScoreCost,0.04488662656,,-1,ScoreCost
+sensodat,0.2,0.1,7,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,8,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,8,FailRerun,0.04789449329,,-1,FailRerun
+sensodat,0.2,0.1,8,ReproAlloc,0.0497454882,,-1,Mean Planning
+sensodat,0.2,0.1,8,ReproAlloc-Optimistic,0.04874286596,,-1,ReproAlloc
+sensodat,0.2,0.1,8,ScoreCost,0.0363257751,,-1,ScoreCost
+sensodat,0.2,0.1,8,Uniform,0,,-1,Uniform
+sensodat,0.2,0.1,9,APGAI,0,,-1,APGAI
+sensodat,0.2,0.1,9,FailRerun,0.05298472929,,-1,FailRerun
+sensodat,0.2,0.1,9,ReproAlloc,0.05552984729,,-1,Mean Planning
+sensodat,0.2,0.1,9,ReproAlloc-Optimistic,0.05159648311,,-1,ReproAlloc
+sensodat,0.2,0.1,9,ScoreCost,0.04118463674,,-1,ScoreCost
+sensodat,0.2,0.1,9,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,0,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,0,FailRerun,0.09925960204,,-1,FailRerun
+sensodat,0.2,0.2,0,ReproAlloc,0.09995372513,,-1,Mean Planning
+sensodat,0.2,0.2,0,ReproAlloc-Optimistic,0.09725435755,,-1,ReproAlloc
+sensodat,0.2,0.2,0,ScoreCost,0.07565941694,,-1,ScoreCost
+sensodat,0.2,0.2,0,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,1,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,1,FailRerun,0.0994909764,,-1,FailRerun
+sensodat,0.2,0.2,1,ReproAlloc,0.1022674688,,-1,Mean Planning
+sensodat,0.2,0.2,1,ReproAlloc-Optimistic,0.09802560543,,-1,ReproAlloc
+sensodat,0.2,0.2,1,ScoreCost,0.0733456733,,-1,ScoreCost
+sensodat,0.2,0.2,1,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,2,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,2,FailRerun,0.0969458584,,-1,FailRerun
+sensodat,0.2,0.2,2,ReproAlloc,0.1001850995,,-1,Mean Planning
+sensodat,0.2,0.2,2,ReproAlloc-Optimistic,0.09941385161,,-1,ReproAlloc
+sensodat,0.2,0.2,2,ScoreCost,0.07450254512,,-1,ScoreCost
+sensodat,0.2,0.2,2,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,3,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,3,FailRerun,0.09833410458,,-1,FailRerun
+sensodat,0.2,0.2,3,ReproAlloc,0.1036557149,,-1,Mean Planning
+sensodat,0.2,0.2,3,ReproAlloc-Optimistic,0.09833410458,,-1,ReproAlloc
+sensodat,0.2,0.2,3,ScoreCost,0.07774178621,,-1,ScoreCost
+sensodat,0.2,0.2,3,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,4,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,4,FailRerun,0.09902822767,,-1,FailRerun
+sensodat,0.2,0.2,4,ReproAlloc,0.1014190961,,-1,Mean Planning
+sensodat,0.2,0.2,4,ReproAlloc-Optimistic,0.1001079747,,-1,ReproAlloc
+sensodat,0.2,0.2,4,ScoreCost,0.07959278112,,-1,ScoreCost
+sensodat,0.2,0.2,4,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,5,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,5,FailRerun,0.0994909764,,-1,FailRerun
+sensodat,0.2,0.2,5,ReproAlloc,0.1028844671,,-1,Mean Planning
+sensodat,0.2,0.2,5,ReproAlloc-Optimistic,0.0994909764,,-1,ReproAlloc
+sensodat,0.2,0.2,5,ScoreCost,0.07820453494,,-1,ScoreCost
+sensodat,0.2,0.2,5,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,6,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,6,FailRerun,0.1031929662,,-1,FailRerun
+sensodat,0.2,0.2,6,ReproAlloc,0.1062008329,,-1,Mean Planning
+sensodat,0.2,0.2,6,ReproAlloc-Optimistic,0.1036557149,,-1,ReproAlloc
+sensodat,0.2,0.2,6,ScoreCost,0.07913003239,,-1,ScoreCost
+sensodat,0.2,0.2,6,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,7,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,7,FailRerun,0.1048125868,,-1,FailRerun
+sensodat,0.2,0.2,7,ReproAlloc,0.1067407065,,-1,Mean Planning
+sensodat,0.2,0.2,7,ReproAlloc-Optimistic,0.104349838,,-1,ReproAlloc
+sensodat,0.2,0.2,7,ScoreCost,0.08236927348,,-1,ScoreCost
+sensodat,0.2,0.2,7,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,8,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,8,FailRerun,0.09833410458,,-1,FailRerun
+sensodat,0.2,0.2,8,ReproAlloc,0.1004935986,,-1,Mean Planning
+sensodat,0.2,0.2,8,ReproAlloc-Optimistic,0.09702298319,,-1,ReproAlloc
+sensodat,0.2,0.2,8,ScoreCost,0.07519666821,,-1,ScoreCost
+sensodat,0.2,0.2,8,Uniform,0,,-1,Uniform
+sensodat,0.2,0.2,9,APGAI,0,,-1,APGAI
+sensodat,0.2,0.2,9,FailRerun,0.1015733457,,-1,FailRerun
+sensodat,0.2,0.2,9,ReproAlloc,0.103270091,,-1,Mean Planning
+sensodat,0.2,0.2,9,ReproAlloc-Optimistic,0.1023445936,,-1,ReproAlloc
+sensodat,0.2,0.2,9,ScoreCost,0.08074965294,,-1,ScoreCost
+sensodat,0.2,0.2,9,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,0,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,0,FailRerun,0.01180009255,,-1,FailRerun
+sensodat,0.4,0.05,0,ReproAlloc,0.01519358322,,-1,Mean Planning
+sensodat,0.4,0.05,0,ReproAlloc-Optimistic,0.01642757982,,-1,ReproAlloc
+sensodat,0.4,0.05,0,ScoreCost,0.01388246182,,-1,ScoreCost
+sensodat,0.4,0.05,0,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,1,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,1,FailRerun,0.01156871819,,-1,FailRerun
+sensodat,0.4,0.05,1,ReproAlloc,0.01388246182,,-1,Mean Planning
+sensodat,0.4,0.05,1,ReproAlloc-Optimistic,0.01573345673,,-1,ReproAlloc
+sensodat,0.4,0.05,1,ScoreCost,0.01318833873,,-1,ScoreCost
+sensodat,0.4,0.05,1,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,2,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,2,FailRerun,0.01064322073,,-1,FailRerun
+sensodat,0.4,0.05,2,ReproAlloc,0.01480795928,,-1,Mean Planning
+sensodat,0.4,0.05,2,ReproAlloc-Optimistic,0.01781582601,,-1,ReproAlloc
+sensodat,0.4,0.05,2,ScoreCost,0.0159648311,,-1,ScoreCost
+sensodat,0.4,0.05,2,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,3,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,3,FailRerun,0.01203146691,,-1,FailRerun
+sensodat,0.4,0.05,3,ReproAlloc,0.01511645843,,-1,Mean Planning
+sensodat,0.4,0.05,3,ReproAlloc-Optimistic,0.01650470461,,-1,ReproAlloc
+sensodat,0.4,0.05,3,ScoreCost,0.01527070801,,-1,ScoreCost
+sensodat,0.4,0.05,3,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,4,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,4,FailRerun,0.01272559,,-1,FailRerun
+sensodat,0.4,0.05,4,ReproAlloc,0.01565633195,,-1,Mean Planning
+sensodat,0.4,0.05,4,ReproAlloc-Optimistic,0.01665895419,,-1,ReproAlloc
+sensodat,0.4,0.05,4,ScoreCost,0.01503933364,,-1,ScoreCost
+sensodat,0.4,0.05,4,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,5,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,5,FailRerun,0.01226284128,,-1,FailRerun
+sensodat,0.4,0.05,5,ReproAlloc,0.01503933364,,-1,Mean Planning
+sensodat,0.4,0.05,5,ReproAlloc-Optimistic,0.01503933364,,-1,ReproAlloc
+sensodat,0.4,0.05,5,ScoreCost,0.01318833873,,-1,ScoreCost
+sensodat,0.4,0.05,5,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,6,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,6,FailRerun,0.01295696437,,-1,FailRerun
+sensodat,0.4,0.05,6,ReproAlloc,0.01673607898,,-1,Mean Planning
+sensodat,0.4,0.05,6,ReproAlloc-Optimistic,0.0191269474,,-1,ReproAlloc
+sensodat,0.4,0.05,6,ScoreCost,0.0185099491,,-1,ScoreCost
+sensodat,0.4,0.05,6,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,7,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,7,FailRerun,0.01457658491,,-1,FailRerun
+sensodat,0.4,0.05,7,ReproAlloc,0.01550208237,,-1,Mean Planning
+sensodat,0.4,0.05,7,ReproAlloc-Optimistic,0.01743020207,,-1,ReproAlloc
+sensodat,0.4,0.05,7,ScoreCost,0.0159648311,,-1,ScoreCost
+sensodat,0.4,0.05,7,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,8,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,8,FailRerun,0.01226284128,,-1,FailRerun
+sensodat,0.4,0.05,8,ReproAlloc,0.01419096097,,-1,Mean Planning
+sensodat,0.4,0.05,8,ReproAlloc-Optimistic,0.01480795928,,-1,ReproAlloc
+sensodat,0.4,0.05,8,ScoreCost,0.01226284128,,-1,ScoreCost
+sensodat,0.4,0.05,8,Uniform,0,,-1,Uniform
+sensodat,0.4,0.05,9,APGAI,0,,-1,APGAI
+sensodat,0.4,0.05,9,FailRerun,0.01226284128,,-1,FailRerun
+sensodat,0.4,0.05,9,ReproAlloc,0.01619620546,,-1,Mean Planning
+sensodat,0.4,0.05,9,ReproAlloc-Optimistic,0.01750732685,,-1,ReproAlloc
+sensodat,0.4,0.05,9,ScoreCost,0.0159648311,,-1,ScoreCost
+sensodat,0.4,0.05,9,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,0,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,0,FailRerun,0.02267468764,,-1,FailRerun
+sensodat,0.4,0.1,0,ReproAlloc,0.0286904211,,-1,Mean Planning
+sensodat,0.4,0.1,0,ReproAlloc-Optimistic,0.03231528613,,-1,ReproAlloc
+sensodat,0.4,0.1,0,ScoreCost,0.03077279037,,-1,ScoreCost
+sensodat,0.4,0.1,0,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,1,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,1,FailRerun,0.02267468764,,-1,FailRerun
+sensodat,0.4,0.1,1,ReproAlloc,0.02745642449,,-1,Mean Planning
+sensodat,0.4,0.1,1,ReproAlloc-Optimistic,0.03015579207,,-1,ReproAlloc
+sensodat,0.4,0.1,1,ScoreCost,0.02776492365,,-1,ScoreCost
+sensodat,0.4,0.1,1,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,2,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,2,FailRerun,0.02221193892,,-1,FailRerun
+sensodat,0.4,0.1,2,ReproAlloc,0.02938454419,,-1,Mean Planning
+sensodat,0.4,0.1,2,ReproAlloc-Optimistic,0.03054141601,,-1,ReproAlloc
+sensodat,0.4,0.1,2,ScoreCost,0.02637667746,,-1,ScoreCost
+sensodat,0.4,0.1,2,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,3,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,3,FailRerun,0.02336881074,,-1,FailRerun
+sensodat,0.4,0.1,3,ReproAlloc,0.0300015425,,-1,Mean Planning
+sensodat,0.4,0.1,3,ReproAlloc-Optimistic,0.03200678698,,-1,ReproAlloc
+sensodat,0.4,0.1,3,ScoreCost,0.03031004165,,-1,ScoreCost
+sensodat,0.4,0.1,3,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,4,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,4,FailRerun,0.02429430819,,-1,FailRerun
+sensodat,0.4,0.1,4,ReproAlloc,0.0293074194,,-1,Mean Planning
+sensodat,0.4,0.1,4,ReproAlloc-Optimistic,0.03185253741,,-1,ReproAlloc
+sensodat,0.4,0.1,4,ScoreCost,0.02938454419,,-1,ScoreCost
+sensodat,0.4,0.1,4,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,5,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,5,FailRerun,0.02383155946,,-1,FailRerun
+sensodat,0.4,0.1,5,ReproAlloc,0.02784204843,,-1,Mean Planning
+sensodat,0.4,0.1,5,ReproAlloc-Optimistic,0.03154403825,,-1,ReproAlloc
+sensodat,0.4,0.1,5,ScoreCost,0.02915316983,,-1,ScoreCost
+sensodat,0.4,0.1,5,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,6,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,6,FailRerun,0.02637667746,,-1,FailRerun
+sensodat,0.4,0.1,6,ReproAlloc,0.03216103656,,-1,Mean Planning
+sensodat,0.4,0.1,6,ReproAlloc-Optimistic,0.03493752892,,-1,ReproAlloc
+sensodat,0.4,0.1,6,ScoreCost,0.0312355391,,-1,ScoreCost
+sensodat,0.4,0.1,6,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,7,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,7,FailRerun,0.02591392874,,-1,FailRerun
+sensodat,0.4,0.1,7,ReproAlloc,0.03007866728,,-1,Mean Planning
+sensodat,0.4,0.1,7,ReproAlloc-Optimistic,0.03347215795,,-1,ReproAlloc
+sensodat,0.4,0.1,7,ScoreCost,0.03262378528,,-1,ScoreCost
+sensodat,0.4,0.1,7,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,8,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,8,FailRerun,0.02336881074,,-1,FailRerun
+sensodat,0.4,0.1,8,ReproAlloc,0.02791917322,,-1,Mean Planning
+sensodat,0.4,0.1,8,ReproAlloc-Optimistic,0.0306185408,,-1,ReproAlloc
+sensodat,0.4,0.1,8,ScoreCost,0.0261453031,,-1,ScoreCost
+sensodat,0.4,0.1,8,Uniform,0,,-1,Uniform
+sensodat,0.4,0.1,9,APGAI,0,,-1,APGAI
+sensodat,0.4,0.1,9,FailRerun,0.02568255437,,-1,FailRerun
+sensodat,0.4,0.1,9,ReproAlloc,0.02992441771,,-1,Mean Planning
+sensodat,0.4,0.1,9,ReproAlloc-Optimistic,0.03223816135,,-1,ReproAlloc
+sensodat,0.4,0.1,9,ScoreCost,0.03054141601,,-1,ScoreCost
+sensodat,0.4,0.1,9,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,0,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,0,FailRerun,0.04604349838,,-1,FailRerun
+sensodat,0.4,0.2,0,ReproAlloc,0.05606972081,,-1,Mean Planning
+sensodat,0.4,0.2,0,ReproAlloc-Optimistic,0.06108283202,,-1,ReproAlloc
+sensodat,0.4,0.2,0,ScoreCost,0.05437297547,,-1,ScoreCost
+sensodat,0.4,0.2,0,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,1,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,1,FailRerun,0.04581212402,,-1,FailRerun
+sensodat,0.4,0.2,1,ReproAlloc,0.05491284899,,-1,Mean Planning
+sensodat,0.4,0.2,1,ReproAlloc-Optimistic,0.06139133117,,-1,ReproAlloc
+sensodat,0.4,0.2,1,ScoreCost,0.05506709857,,-1,ScoreCost
+sensodat,0.4,0.2,1,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,2,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,2,FailRerun,0.04812586765,,-1,FailRerun
+sensodat,0.4,0.2,2,ReproAlloc,0.05329322844,,-1,Mean Planning
+sensodat,0.4,0.2,2,ReproAlloc-Optimistic,0.06085145766,,-1,ReproAlloc
+sensodat,0.4,0.2,2,ScoreCost,0.05599259602,,-1,ScoreCost
+sensodat,0.4,0.2,2,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,3,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,3,FailRerun,0.04812586765,,-1,FailRerun
+sensodat,0.4,0.2,3,ReproAlloc,0.05622397038,,-1,Mean Planning
+sensodat,0.4,0.2,3,ReproAlloc-Optimistic,0.06339657566,,-1,ReproAlloc
+sensodat,0.4,0.2,3,ScoreCost,0.05460434984,,-1,ScoreCost
+sensodat,0.4,0.2,3,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,4,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,4,FailRerun,0.04743174456,,-1,FailRerun
+sensodat,0.4,0.2,4,ReproAlloc,0.05522134814,,-1,Mean Planning
+sensodat,0.4,0.2,4,ReproAlloc-Optimistic,0.06108283202,,-1,ReproAlloc
+sensodat,0.4,0.2,4,ScoreCost,0.05668671911,,-1,ScoreCost
+sensodat,0.4,0.2,4,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,5,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,5,FailRerun,0.04604349838,,-1,FailRerun
+sensodat,0.4,0.2,5,ReproAlloc,0.05391022675,,-1,Mean Planning
+sensodat,0.4,0.2,5,ReproAlloc-Optimistic,0.06154558075,,-1,ReproAlloc
+sensodat,0.4,0.2,5,ScoreCost,0.0573808422,,-1,ScoreCost
+sensodat,0.4,0.2,5,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,6,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,6,FailRerun,0.05205923184,,-1,FailRerun
+sensodat,0.4,0.2,6,ReproAlloc,0.05853771402,,-1,Mean Planning
+sensodat,0.4,0.2,6,ReproAlloc-Optimistic,0.06370507481,,-1,ReproAlloc
+sensodat,0.4,0.2,6,ScoreCost,0.05622397038,,-1,ScoreCost
+sensodat,0.4,0.2,6,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,7,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,7,FailRerun,0.05020823693,,-1,FailRerun
+sensodat,0.4,0.2,7,ReproAlloc,0.05691809348,,-1,Mean Planning
+sensodat,0.4,0.2,7,ReproAlloc-Optimistic,0.0631652013,,-1,ReproAlloc
+sensodat,0.4,0.2,7,ScoreCost,0.05853771402,,-1,ScoreCost
+sensodat,0.4,0.2,7,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,8,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,8,FailRerun,0.04650624711,,-1,FailRerun
+sensodat,0.4,0.2,8,ReproAlloc,0.0522906062,,-1,Mean Planning
+sensodat,0.4,0.2,8,ReproAlloc-Optimistic,0.06038870893,,-1,ReproAlloc
+sensodat,0.4,0.2,8,ScoreCost,0.05460434984,,-1,ScoreCost
+sensodat,0.4,0.2,8,Uniform,0,,-1,Uniform
+sensodat,0.4,0.2,9,APGAI,0,,-1,APGAI
+sensodat,0.4,0.2,9,FailRerun,0.05113373438,,-1,FailRerun
+sensodat,0.4,0.2,9,ReproAlloc,0.05761221657,,-1,Mean Planning
+sensodat,0.4,0.2,9,ReproAlloc-Optimistic,0.0624710782,,-1,ReproAlloc
+sensodat,0.4,0.2,9,ScoreCost,0.05645534475,,-1,ScoreCost
+sensodat,0.4,0.2,9,Uniform,0,,-1,Uniform

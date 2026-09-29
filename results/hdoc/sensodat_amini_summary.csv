@@ -1,0 +1,7 @@
+benchmark,budget,tau,method,n_units,n_reference,count_mean,count_halfwidth,recall_mean,recall_halfwidth,recall_ci_low,recall_ci_high
+SensoDat,0.05,0.3,HDoC-Sampling,10,4322,0.0,0.0,0.0,0.0,0.0,0.0
+SensoDat,0.1,0.3,HDoC-Sampling,10,4322,0.0,0.0,0.0,0.0,0.0,0.0
+SensoDat,0.2,0.3,HDoC-Sampling,10,4322,0.0,0.0,0.0,0.0,0.0,0.0
+Amini,0.05,0.3,HDoC-Sampling,12,23,0.0,0.0,0.0,0.0,0.0,0.0
+Amini,0.1,0.3,HDoC-Sampling,12,23,0.0,0.0,0.0,0.0,0.0,0.0
+Amini,0.2,0.3,HDoC-Sampling,12,23,0.0,0.0,0.0,0.0,0.0,0.0

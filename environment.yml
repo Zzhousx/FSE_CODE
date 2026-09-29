@@ -1,0 +1,16 @@
+# Pinned environment for BIT-EXACT SensoDat reruns.
+# The HGB (HistGradientBoostingClassifier) source-prior fits are sensitive to
+# the scikit-learn version; the reference runs used exactly this stack.
+# Not needed for: analysis builders, Amini reruns, unit tests.
+name: reproalloc-sensodat
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - scikit-learn=1.5.1
+  - pandas
+  - matplotlib
+  - pytest
+  - joblib

@@ -1,0 +1,7 @@
+dataset,budget,executions,"escape_states(m_mean=inf,m_opt=finite)",escape_frac,median_qO_minus_qmean,would_differ_frac,fallback_steps,fallback_frac,unique_arms_visited_mean,execs_per_visited_arm_mean,execs_on_finally_confirmed_frac,execs_on_finally_unconfirmed_frac
+amini,0.05,334,135,0.404192,0.233048,0.491018,0,0,10,2.78333,0.502994,0.497006
+amini,0.1,663,137,0.206637,0.222864,0.363499,0,0,18.5833,2.97309,0.552036,0.447964
+amini,0.2,1288,298,0.231366,0.233048,0.40528,0,0,35.8333,2.99535,0.486801,0.513199
+sensodat,0.05,30899,133,0.00430435,0.109571,0.30357,0,0,241.733,4.26076,0.778278,0.221722
+sensodat,0.1,63887,235,0.00367837,0.121837,0.335827,0,0,549.5,3.87546,0.740291,0.259709
+sensodat,0.2,119494,422,0.00353156,0.128621,0.341406,0,0,944.467,4.21734,0.764097,0.235903

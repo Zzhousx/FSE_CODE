@@ -1,0 +1,10 @@
+Beta-quantile micro-benchmark (scipy.stats.beta.ppf, 1-delta=0.95)
+calls: 200000 vectorized over realistic (a,b) ranges [1,60]
+total: 0.176s  ->  0.88 us per quantile
+
+Context: the optimistic selector evaluates est_remaining_execs once
+per executed arm per step (cached by (s,n,q,tau)); the planning-rate
+quantile itself is one beta.ppf call per evaluation.
+Per-run scheduler CPU and per-decision latency are in
+runtime_overhead.csv (from sched_overhead_s recorded in the main
+experiment CSVs; per-decision values are per-run averages).

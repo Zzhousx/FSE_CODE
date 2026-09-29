@@ -1,0 +1,26 @@
+{
+  "tag": "sweep",
+  "budget_fracs": [
+    0.03,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "methods": [
+    "Uniform",
+    "FailRerun",
+    "APGAI",
+    "ScoreCost",
+    "ReproAlloc",
+    "ReproAlloc-OA",
+    "ReproAlloc-Optimistic"
+  ],
+  "n_splits": 10,
+  "n_reps": 3,
+  "optimistic_delta": 0.05,
+  "planning_rate": "Beta.ppf(0.95;a,b)"
+}

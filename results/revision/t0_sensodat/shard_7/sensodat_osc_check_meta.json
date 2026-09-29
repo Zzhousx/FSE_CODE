@@ -1,0 +1,25 @@
+{
+  "tag": "osc_check",
+  "budget_fracs": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "methods": [
+    "Uniform",
+    "FailRerun",
+    "APGAI",
+    "ScoreCost",
+    "ReproAlloc",
+    "ReproAlloc-OA",
+    "ReproAlloc-Optimistic",
+    "OptimisticScoreCost"
+  ],
+  "n_splits": 1,
+  "n_reps": 3,
+  "tau": 0.3,
+  "delta": 0.05,
+  "kappa": 5.0,
+  "optimistic_delta": 0.05,
+  "planning_rate": "Beta.ppf(0.95;a,b)"
+}

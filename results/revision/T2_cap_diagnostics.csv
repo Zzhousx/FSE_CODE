@@ -1,0 +1,13 @@
+benchmark,budget,method,cap_bound_steps,changed_steps,diagnostic_steps,cap_bound_fraction,changed_fraction
+Amini,0.05,Mean Planning,362,120,362,1.0,0.3314917127071823
+Amini,0.05,ReproAlloc,24,0,334,0.0718562874251497,0.0
+Amini,0.1,Mean Planning,622,121,622,1.0,0.1945337620578778
+Amini,0.1,ReproAlloc,189,0,663,0.2850678733031674,0.0
+Amini,0.2,Mean Planning,1143,120,1143,1.0,0.10498687664041995
+Amini,0.2,ReproAlloc,0,0,1288,0.0,0.0
+SensoDat,0.05,Mean Planning,56102,0,56102,1.0,0.0
+SensoDat,0.05,ReproAlloc,18476,0,61845,0.2987468671679198,0.0
+SensoDat,0.1,Mean Planning,105443,0,105443,1.0,0.0
+SensoDat,0.1,ReproAlloc,0,0,127723,0.0,0.0
+SensoDat,0.2,Mean Planning,201023,0,201023,1.0,0.0
+SensoDat,0.2,ReproAlloc,4057,1879,239011,0.016974114162109692,0.007861562856939638

@@ -1,0 +1,11 @@
+# Analysis / Amini / unit tests (versions are not critical)
+numpy
+pandas
+scipy
+matplotlib
+pytest
+
+# NOTE: bit-exact SensoDat reruns need the pinned stack in environment.yml
+# (python 3.12 + scikit-learn 1.5.1 + numpy 1.26.4 + scipy 1.13.1).
+# scikit-learn is only imported inside SensoDat runner functions, so it is
+# not required for the analysis builders, Amini runs, or the unit tests.

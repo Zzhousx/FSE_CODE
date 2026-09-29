@@ -1,0 +1,36 @@
+{
+  "tag": "regression",
+  "seeds": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "budget_fracs": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "methods": [
+    "Uniform",
+    "FailRerun",
+    "APGAI",
+    "ScoreCost",
+    "ReproAlloc",
+    "ReproAlloc-OA",
+    "ReproAlloc-Optimistic"
+  ],
+  "tau": 0.3,
+  "delta": 0.05,
+  "optimistic_delta": 0.05,
+  "planning_rate": "Beta.ppf(0.95;a,b)",
+  "total_duration_s": 1955593.1726386547
+}

@@ -1,0 +1,40 @@
+
+===== budget 5% =====
+net confirmation-rate change per route (opt - mean), only non-zero:
+  RouteScenario_8      d_conf=+0.167 (mean 0.25 -> opt 0.42) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+2.5
+  RouteScenario_10     d_conf=+0.167 (mean 0.17 -> opt 0.33) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+0.3
+  RouteScenario_9      d_conf=+0.167 (mean 0.17 -> opt 0.33) p_hat=0.95 pool=20 s=19 k_best=9 k_worst=12 d_runs=+1.7
+  RouteScenario_33     d_conf=-0.083 (mean 0.25 -> opt 0.17) p_hat=1.00 pool=20 s=20 k_best=9 k_worst=9 d_runs=-0.1
+  gained routes: 3 (ref_pos 3), lost routes: 1 (ref_pos 1)
+  gained: mean p_hat=0.98 mean k_best=9.0
+  lost  : mean p_hat=1.00 mean k_best=9.0
+
+===== budget 10% =====
+net confirmation-rate change per route (opt - mean), only non-zero:
+  RouteScenario_10     d_conf=+0.500 (mean 0.25 -> opt 0.75) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+4.5
+  RouteScenario_14     d_conf=+0.417 (mean 0.08 -> opt 0.50) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+3.7
+  RouteScenario_33     d_conf=+0.250 (mean 0.17 -> opt 0.42) p_hat=1.00 pool=20 s=20 k_best=9 k_worst=9 d_runs=+2.2
+  RouteScenario_8      d_conf=+0.250 (mean 0.25 -> opt 0.50) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+2.7
+  RouteScenario_7      d_conf=+0.167 (mean 0.25 -> opt 0.42) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+1.2
+  RouteScenario_9      d_conf=+0.167 (mean 0.33 -> opt 0.50) p_hat=0.95 pool=20 s=19 k_best=9 k_worst=12 d_runs=+1.2
+  RouteScenario_13     d_conf=+0.083 (mean 0.00 -> opt 0.08) p_hat=0.90 pool=10 s=9 k_best=9 k_worst=-1 d_runs=+0.4
+  RouteScenario_32     d_conf=-0.167 (mean 0.17 -> opt 0.00) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=-1.1
+  RouteScenario_16     d_conf=-0.167 (mean 0.25 -> opt 0.08) p_hat=0.80 pool=20 s=16 k_best=9 k_worst=20 d_runs=-1.9
+  gained routes: 7 (ref_pos 7), lost routes: 2 (ref_pos 2)
+  gained: mean p_hat=0.98 mean k_best=9.0
+  lost  : mean p_hat=0.90 mean k_best=9.0
+
+===== budget 20% =====
+net confirmation-rate change per route (opt - mean), only non-zero:
+  RouteScenario_10     d_conf=+0.583 (mean 0.42 -> opt 1.00) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+5.2
+  RouteScenario_7      d_conf=+0.500 (mean 0.50 -> opt 1.00) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+3.9
+  RouteScenario_14     d_conf=+0.500 (mean 0.42 -> opt 0.92) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+4.6
+  RouteScenario_33     d_conf=+0.417 (mean 0.42 -> opt 0.83) p_hat=1.00 pool=20 s=20 k_best=9 k_worst=9 d_runs=+3.6
+  RouteScenario_9      d_conf=+0.417 (mean 0.25 -> opt 0.67) p_hat=0.95 pool=20 s=19 k_best=9 k_worst=12 d_runs=+4.8
+  RouteScenario_8      d_conf=+0.333 (mean 0.67 -> opt 1.00) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=+3.0
+  RouteScenario_13     d_conf=+0.083 (mean 0.00 -> opt 0.08) p_hat=0.90 pool=10 s=9 k_best=9 k_worst=-1 d_runs=+1.8
+  RouteScenario_16     d_conf=-0.250 (mean 0.33 -> opt 0.08) p_hat=0.80 pool=20 s=16 k_best=9 k_worst=20 d_runs=-3.2
+  RouteScenario_32     d_conf=-0.583 (mean 0.67 -> opt 0.08) p_hat=1.00 pool=10 s=10 k_best=9 k_worst=9 d_runs=-4.1
+  gained routes: 7 (ref_pos 7), lost routes: 2 (ref_pos 2)
+  gained: mean p_hat=0.98 mean k_best=9.0
+  lost  : mean p_hat=0.90 mean k_best=9.0

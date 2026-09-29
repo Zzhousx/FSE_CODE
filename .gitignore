@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Regenerable large CANNIER inputs and per-execution logs.
+/results/cannier/raw/
+/results/cannier/served*.gz
+/results/cannier/*.log
+/results/cannier/tuning/logs/
+
+# Local scratch and rerun outputs outside the curated snapshot.
+/_build_out/
+*.sqlite3

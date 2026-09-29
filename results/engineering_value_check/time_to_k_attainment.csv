@@ -1,0 +1,49 @@
+basis,method,k,reached_count,total_runs,reached_fraction
+all_confirmed,APGAI,1,12,12,1.0
+all_confirmed,APGAI,2,12,12,1.0
+all_confirmed,APGAI,3,12,12,1.0
+all_confirmed,FailRerun,1,10,12,0.8333333333333334
+all_confirmed,FailRerun,2,8,12,0.6666666666666666
+all_confirmed,FailRerun,3,4,12,0.3333333333333333
+all_confirmed,Mean Planning,1,12,12,1.0
+all_confirmed,Mean Planning,2,12,12,1.0
+all_confirmed,Mean Planning,3,10,12,0.8333333333333334
+all_confirmed,OptimisticScoreCost,1,12,12,1.0
+all_confirmed,OptimisticScoreCost,2,12,12,1.0
+all_confirmed,OptimisticScoreCost,3,12,12,1.0
+all_confirmed,ReproAlloc,1,12,12,1.0
+all_confirmed,ReproAlloc,2,12,12,1.0
+all_confirmed,ReproAlloc,3,12,12,1.0
+all_confirmed,ReproAlloc-OA,1,12,12,1.0
+all_confirmed,ReproAlloc-OA,2,12,12,1.0
+all_confirmed,ReproAlloc-OA,3,11,12,0.9166666666666666
+all_confirmed,ScoreCost,1,12,12,1.0
+all_confirmed,ScoreCost,2,12,12,1.0
+all_confirmed,ScoreCost,3,12,12,1.0
+all_confirmed,Uniform,1,1,12,0.08333333333333333
+all_confirmed,Uniform,2,0,12,0.0
+all_confirmed,Uniform,3,0,12,0.0
+reference_positive,APGAI,1,12,12,1.0
+reference_positive,APGAI,2,12,12,1.0
+reference_positive,APGAI,3,12,12,1.0
+reference_positive,FailRerun,1,10,12,0.8333333333333334
+reference_positive,FailRerun,2,8,12,0.6666666666666666
+reference_positive,FailRerun,3,4,12,0.3333333333333333
+reference_positive,Mean Planning,1,12,12,1.0
+reference_positive,Mean Planning,2,12,12,1.0
+reference_positive,Mean Planning,3,10,12,0.8333333333333334
+reference_positive,OptimisticScoreCost,1,12,12,1.0
+reference_positive,OptimisticScoreCost,2,12,12,1.0
+reference_positive,OptimisticScoreCost,3,12,12,1.0
+reference_positive,ReproAlloc,1,12,12,1.0
+reference_positive,ReproAlloc,2,12,12,1.0
+reference_positive,ReproAlloc,3,12,12,1.0
+reference_positive,ReproAlloc-OA,1,12,12,1.0
+reference_positive,ReproAlloc-OA,2,12,12,1.0
+reference_positive,ReproAlloc-OA,3,11,12,0.9166666666666666
+reference_positive,ScoreCost,1,12,12,1.0
+reference_positive,ScoreCost,2,12,12,1.0
+reference_positive,ScoreCost,3,12,12,1.0
+reference_positive,Uniform,1,1,12,0.08333333333333333
+reference_positive,Uniform,2,0,12,0.0
+reference_positive,Uniform,3,0,12,0.0

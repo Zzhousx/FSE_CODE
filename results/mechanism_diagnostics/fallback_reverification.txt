@@ -1,0 +1,13 @@
+FALLBACK RE-VERIFICATION FROM RAW LOGS (spec 5.4)
+source: logs/optimistic_ercc/{amini,sensodat}/main/*.csv
+escape := executed state with m_mean=inf (-1.0) and m_opt finite
+fallback := sel_kind == 'fallback'
+
+amini @0.05: executions=334  escape 135 (0.404; old 0.404 OK)  fallback 0 (0.0000; old 0.000 OK)  would_differ 0.491 (old 0.491 OK)
+amini @0.10: executions=663  escape 137 (0.207; old 0.207 OK)  fallback 0 (0.0000; old 0.000 OK)  would_differ 0.363 (old 0.363 OK)
+amini @0.20: executions=1288  escape 298 (0.231; old 0.231 OK)  fallback 0 (0.0000; old 0.000 OK)  would_differ 0.405 (old 0.405 OK)
+sensodat @0.05: executions=30899  escape 133 (0.004; old 0.004 OK)  fallback 0 (0.0000; old 0.000 OK)  would_differ 0.304 (old 0.304 OK)
+sensodat @0.10: executions=63887  escape 235 (0.004; old 0.004 OK)  fallback 0 (0.0000; old 0.000 OK)  would_differ 0.336 (old 0.336 OK)
+sensodat @0.20: executions=119494  escape 422 (0.004; old 0.004 OK)  fallback 0 (0.0000; old 0.000 OK)  would_differ 0.341 (old 0.341 OK)
+
+RESULT: PASS - raw-log values reproduce the reported diagnostics
