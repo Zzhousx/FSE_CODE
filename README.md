@@ -27,10 +27,8 @@ The CANNIER source archive is available through
 `python scripts/cannier/fetch_data.py`; the script verifies its checksum.
 Prepared replay pools are included in `results/cannier/pools/`. Large source
 databases and execution-event logs are omitted from this GitHub package.
-
-The CANNIER evaluation uses the eight projects in
-`configs/cannier_eval.json`, 12 seeds, and ReproAlloc planning quantile
-ρ = 0.5.
+The evaluation uses the eight projects in
+`configs/cannier_eval.json` and 12 seeds.
 
 The literature-based GAI comparison methods are implemented in
 `scripts/cannier/gai_published_baselines.py`. Their paper sources and the
